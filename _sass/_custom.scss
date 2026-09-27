@@ -288,3 +288,135 @@ html[data-theme='dark'] .news-table .news-date {
 html[data-theme='dark'] .news-table .news-text a {
   color: #6d9fd4 !important;
 }
+
+/* ============================================
+   Join Us Page
+   ============================================ */
+
+/* Openings grid */
+.openings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,
+    minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+/* Opening card */
+.opening-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 1.5rem;
+  position: relative;
+  transition: box-shadow 0.2s ease;
+  background-color: var(--global-bg-color);
+}
+
+.opening-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.opening-card h3 {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.opening-card p {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.opening-card ul {
+  font-size: 0.82rem;
+  color: #666;
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.opening-card ul li {
+  margin-bottom: 0.2rem;
+}
+
+/* Status badge */
+.opening-status {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3rem;
+}
+
+.opening-status.open {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.opening-status.closed {
+  background-color: #fce4ec;
+  color: #c62828;
+}
+
+/* Apply button */
+.btn-apply {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #4a7ab5 !important;
+  border: 1px solid #4a7ab5;
+  padding: 0.2rem 0.7rem;
+  border-radius: 3px;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+}
+
+.btn-apply:hover {
+  background-color: #4a7ab5;
+  color: white !important;
+}
+
+/* Dark mode cards */
+html[data-theme='dark'] .opening-card {
+  border-color: #333;
+}
+
+html[data-theme='dark'] .opening-card p,
+html[data-theme='dark'] .opening-card ul {
+  color: #aaa;
+}
+
+html[data-theme='dark'] .opening-status.open {
+  background-color: #1b3a1f;
+  color: #81c784;
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 3px solid #4a7ab5 !important;
+  padding: 0.8rem 1rem !important;
+  margin: 1rem 0 !important;
+  background-color: #f8f9fa;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+html[data-theme='dark'] blockquote {
+  background-color: #222;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .openings-grid {
+    grid-template-columns: 1fr;
+  }
+}
