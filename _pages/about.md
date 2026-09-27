@@ -3,9 +3,9 @@ layout: about
 title: Home
 permalink: /
 subtitle: >
-  **Assistant Professor,**
+  Assistant Professor,
   <a href="https://wsai.iitm.ac.in" target="_blank">
-  Dept. of Data Science and AI</a> · <a href="https://iitm.ac.in" target="_blank">
+  Dept. of Data Science and AI</a> · <a href="https://www.iitm.ac.in/" target="_blank">
   IIT Madras</a> 
 
 profile:
