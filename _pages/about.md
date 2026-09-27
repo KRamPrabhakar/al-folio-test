@@ -10,7 +10,7 @@ profile:
   align: left
   image: profile.png
   image_circular: false
-   more_info: >
+  more_info: >
     <p style="font-size:0.82rem; color:#888;">
     Chennai, India</p>
 
