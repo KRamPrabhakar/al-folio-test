@@ -80,6 +80,7 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 </style>
 
 ---
+<div class="news-section" style="margin-bottom: 3rem;">
 
 ## What's new
 
@@ -92,7 +93,8 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 </tr>
 {% endfor %}
 </table>
-
+</div>
+<!-- 
 <style>
 .news-table {
   width: 100%;
@@ -139,4 +141,4 @@ html[data-theme='dark'] .news-table .news-date {
 html[data-theme='dark'] .news-table .news-text a {
   color: #6d9fd4;
 }
-</style>
+</style> -->

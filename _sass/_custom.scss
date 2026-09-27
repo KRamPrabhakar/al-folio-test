@@ -171,3 +171,41 @@ html[data-theme='dark'] .news table td a {
 html[data-theme='dark'] .news table tr {
   border-bottom: 1px solid #333333;
 }
+
+/* ============================================
+   News Section Fixes
+   ============================================ */
+
+/* Align heading with table */
+.news-table {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-top: 0.8rem !important;
+  margin-bottom: 2.5rem !important;  /* gap before selected publications */
+}
+
+/* Fix heading alignment */
+h2 + .news-table,
+.news-table {
+  padding-left: 0 !important;
+}
+
+/* Add space after entire news section */
+.news-table + * {
+  margin-top: 2.5rem !important;
+}
+
+/* Fix the left border alignment on first row */
+.news-table tr:first-child {
+  border-left: 3px solid #4a7ab5 !important;
+}
+
+/* Ensure all rows align properly */
+.news-table tr {
+  border-bottom: 1px solid #333 !important;
+  border-left: 3px solid transparent !important;
+}
+
+.news-table tr:hover {
+  border-left: 3px solid #4a7ab5 !important;
+}
