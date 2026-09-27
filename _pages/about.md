@@ -13,7 +13,9 @@ profile:
   image: profile.png
   image_circular: false
 
-news: true
+news: false
+announcements:
+  enabled: false
 news_limit: 6
 selected_papers: true
 social: false
@@ -75,4 +77,66 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 .simple-social a { color: #4a7ab5; text-decoration: none; }
 .simple-social a:hover { text-decoration: underline; }
 .simple-social .sep { color: #999; margin: 0 0.3rem; }
+</style>
+
+---
+
+## What's new
+
+{% assign news_items = site.data.news.news | limit: 6 %}
+<table class="news-table">
+{% for item in news_items %}
+<tr>
+  <td class="news-date">{{ item.date }}</td>
+  <td class="news-text">{{ item.text }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<style>
+.news-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-top: 1rem;
+}
+.news-table tr {
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 3px solid transparent;
+}
+.news-table tr:first-child {
+  border-left: 3px solid #4a7ab5;
+}
+.news-table tr:hover {
+  border-left: 3px solid #4a7ab5;
+}
+.news-table .news-date {
+  white-space: nowrap;
+  color: #888;
+  font-size: 0.82rem;
+  min-width: 90px;
+  padding: 0.7rem 1rem 0.7rem 0.5rem;
+  vertical-align: top;
+}
+.news-table .news-text {
+  padding: 0.7rem 0.5rem;
+  line-height: 1.6;
+  vertical-align: top;
+}
+.news-table .news-text a {
+  color: #4a7ab5;
+  text-decoration: none;
+}
+.news-table .news-text a:hover {
+  text-decoration: underline;
+}
+html[data-theme='dark'] .news-table tr {
+  border-bottom: 1px solid #333;
+}
+html[data-theme='dark'] .news-table .news-date {
+  color: #aaa;
+}
+html[data-theme='dark'] .news-table .news-text a {
+  color: #6d9fd4;
+}
 </style>

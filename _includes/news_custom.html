@@ -1,0 +1,21 @@
+{% if page.show_news %}
+<div class="news-section">
+  <h2>What's new</h2>
+
+  <table class="news-table">
+    {% assign news_items = site.data.news.news %}
+    {% if page.news_limit %}
+      {% assign news_items = news_items | limit: page.news_limit %}
+    {% endif %}
+
+    {% for item in news_items %}
+    <tr {% if forloop.index == 2 %}
+        class="news-highlight"
+        {% endif %}>
+      <td class="news-date">{{ item.date }}</td>
+      <td class="news-text">{{ item.text }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endif %}

@@ -1,14 +1,15 @@
-- date: "September 2026"
-  inline: >
-    Joined <a href="https://dsai.iitm.ac.in" 
-    target="_blank">IIT Madras</a> as 
-    Assistant Professor in the Dept. of 
-    Data Science and AI.
+news:
+  - date: "September 2026"
+    text: >
+      Joined <a href="https://dsai.iitm.ac.in" 
+      target="_blank">IIT Madras</a> as 
+      Assistant Professor in the Dept. of 
+      Data Science and AI.
 
-# - date: "Jan 2025"
-#   inline: >
-#     <a href="https://apx-lab.github.io" 
-#     target="_blank">APX Lab</a> is recruiting! 
-#     Looking for PhD, MS, and undergraduate 
-#     researchers. See <a href="/al-folio-test/join">
-#     openings</a>.
+  # - date: "Jan 2025"
+  #   inline: >
+  #     <a href="https://apx-lab.github.io" 
+  #     target="_blank">APX Lab</a> is recruiting! 
+  #     Looking for PhD, MS, and undergraduate 
+  #     researchers. See <a href="/al-folio-test/join">
+  #     openings</a>.
