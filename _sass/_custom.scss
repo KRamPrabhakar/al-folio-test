@@ -1,0 +1,57 @@
+/* Simple social links — replaces big icons */
+.simple-social {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.simple-social a {
+  color: #4a7ab5;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.simple-social a:hover {
+  text-decoration: underline;
+}
+
+.simple-social span {
+  color: #999;
+  margin: 0 0.3rem;
+}
+
+/* Bio link */
+.bio-link {
+  color: #4a7ab5;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.bio-link:hover {
+  text-decoration: underline;
+}
+
+/* Email obfuscation */
+.email-obf::before {
+  content: attr(data-user) "\0040" attr(data-domain);
+  color: #4a7ab5;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.email-obf:hover::before {
+  text-decoration: underline;
+}
+
+/* ============================================
+   Bio Link
+   ============================================ */
+
+.bio-link {
+  color: #4a7ab5;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.bio-link:hover {
+  text-decoration: underline;
+}
