@@ -79,6 +79,7 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 .simple-social .sep { color: #999; margin: 0 0.3rem; }
 </style>
 
+<div style="clear:both; margin-top: 3rem;"></div>
 ---
 <h2 class="news-heading">What's new</h2>
 
