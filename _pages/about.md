@@ -30,8 +30,6 @@ Leading the
 working on **computer vision**, **deep learning**,
 **image processing**, and **machine learning**.
 
----
-
 Previously, I was an Assistant Research Scientist under the guidance of [Dr. Rama Chellappa](https://engineering.jhu.edu/ece/faculty/rama-chellappa/) at [Johns Hopkins University](https://www.jhu.edu).
 I received my Ph.D. from Indian Institute of Science (IISc) Bangalore, advised by [Dr. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/).
 
@@ -80,7 +78,7 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 </style>
 
 <div style="clear:both; margin-top: 3rem;"></div>
----
+
 <h2 class="news-heading">What's new</h2>
 
 <table class="news-table">
