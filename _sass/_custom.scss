@@ -69,3 +69,105 @@ footer {
 footer .container {
   padding: 0.3rem 1rem !important;
 }
+
+/* ============================================
+   News Section — What's new
+   Matches abhinavsh.info style
+   ============================================ */
+
+/* Section heading */
+.news h2,
+#news h2 {
+  font-size: 1.4rem !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.3rem !important;
+  border: none !important;
+  padding-bottom: 0 !important;
+}
+
+/* Blue underline below heading */
+.news h2::after,
+#news h2::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2px;
+  background-color: #4a7ab5;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+/* News table */
+.news table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.88rem;
+}
+
+/* Each row */
+.news table tr {
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 3px solid transparent;
+  transition: border-left-color 0.15s ease;
+}
+
+/* Highlight latest news row */
+.news table tr:first-child {
+  border-left: 3px solid #4a7ab5;
+}
+
+.news table tr:hover {
+  border-left: 3px solid #4a7ab5;
+}
+
+/* Date column */
+.news table td:first-child,
+.news td.date {
+  white-space: nowrap;
+  color: #888888;
+  font-size: 0.82rem;
+  min-width: 90px;
+  padding: 0.7rem 1rem 0.7rem 0.5rem;
+  vertical-align: top;
+}
+
+/* Dark mode date */
+html[data-theme='dark'] .news table td:first-child {
+  color: #aaaaaa;
+}
+
+/* News text column */
+.news table td:last-child,
+.news td.news-text {
+  padding: 0.7rem 0.5rem;
+  color: #333333;
+  line-height: 1.6;
+  vertical-align: top;
+}
+
+/* Dark mode text */
+html[data-theme='dark'] .news table td:last-child {
+  color: #cccccc;
+}
+
+/* Links inside news */
+.news table td a {
+  color: #4a7ab5;
+  text-decoration: none;
+}
+
+.news table td a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode links */
+html[data-theme='dark'] .news table td a {
+  color: #6d9fd4;
+}
+
+/* Row separator */
+html[data-theme='dark'] .news table tr {
+  border-bottom: 1px solid #333333;
+}

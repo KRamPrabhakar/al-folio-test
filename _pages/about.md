@@ -14,7 +14,7 @@ profile:
   image_circular: false
 
 news: true
-news_limit: 8
+news_limit: 6
 selected_papers: true
 social: false
 ---
