@@ -3,16 +3,15 @@ layout: about
 title: Home
 permalink: /
 subtitle: >
+  **Assistant Professor,**
   <a href="https://wsai.iitm.ac.in" target="_blank">
-  Dept. of Data Science and AI</a> · IIT Madras
+  Dept. of Data Science and AI</a> · <a href="https://iitm.ac.in" target="_blank">
+  IIT Madras</a> 
 
 profile:
   align: left
   image: profile.png
   image_circular: false
-  more_info: >
-    <p style="font-size:0.82rem; color:#888;">
-    Chennai, India</p>
 
 news: true
 news_limit: 8
@@ -20,9 +19,9 @@ selected_papers: true
 social: false
 ---
 
-**Assistant Professor,**
+<!-- **Assistant Professor,**
 [Department of Data Science and AI](https://wsai.iitm.ac.in)
-at [IIT Madras](https://www.iitm.ac.in)
+at [IIT Madras](https://www.iitm.ac.in) -->
 
 Leading the
 [Artificial Perception X (APX) Lab](https://apx-lab.github.io),
@@ -42,15 +41,15 @@ My research focuses on building machines that can **perceive, understand, and re
 
 <div class="simple-social">
   <a href="https://scholar.google.com/citations?user=gBhmvr8AAAAJ"
-     target="_blank">google scholar</a>
+     target="_blank">Google scholar</a>
   <span>/</span>
   <span class="email-obf"
-        data-user="xxxx"
+        data-user="ram"
         data-domain="dsai.iitm.ac.in">
   </span>
   <span>/</span>
   <a href="/al-folio-test/assets/pdf/cv.pdf"
-     target="_blank">cv</a>
+     target="_blank">CV</a>
 </div>
 
 <script>
