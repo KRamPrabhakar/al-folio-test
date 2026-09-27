@@ -55,3 +55,17 @@
 .bio-link:hover {
   text-decoration: underline;
 }
+
+/* Fix footer */
+footer {
+  position: relative !important;
+  bottom: auto !important;
+  padding: 0.8rem 0 !important;
+  font-size: 0.78rem !important;
+  min-height: unset !important;
+  background-color: transparent !important;
+}
+
+footer .container {
+  padding: 0.3rem 1rem !important;
+}
