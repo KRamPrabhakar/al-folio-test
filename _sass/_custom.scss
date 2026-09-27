@@ -70,142 +70,221 @@ footer .container {
   padding: 0.3rem 1rem !important;
 }
 
-/* ============================================
-   News Section — What's new
-   Matches abhinavsh.info style
-   ============================================ */
+// /* ============================================
+//    News Section — What's new
+//    Matches abhinavsh.info style
+//    ============================================ */
 
-/* Section heading */
-.news h2,
-#news h2 {
+// /* Section heading */
+// .news h2,
+// #news h2 {
+//   font-size: 1.4rem !important;
+//   font-weight: 400 !important;
+//   letter-spacing: -0.01em;
+//   margin-bottom: 0.3rem !important;
+//   border: none !important;
+//   padding-bottom: 0 !important;
+// }
+
+// /* Blue underline below heading */
+// .news h2::after,
+// #news h2::after {
+//   content: "";
+//   display: block;
+//   width: 2rem;
+//   height: 2px;
+//   background-color: #4a7ab5;
+//   margin-top: 0.4rem;
+//   margin-bottom: 1.5rem;
+// }
+
+// /* News table */
+// .news table {
+//   width: 100%;
+//   border-collapse: collapse;
+//   margin-top: 1rem;
+//   font-size: 0.88rem;
+// }
+
+// /* Each row */
+// .news table tr {
+//   border-bottom: 1px solid #e8e8e8;
+//   border-left: 3px solid transparent;
+//   transition: border-left-color 0.15s ease;
+// }
+
+// /* Highlight latest news row */
+// .news table tr:first-child {
+//   border-left: 3px solid #4a7ab5;
+// }
+
+// .news table tr:hover {
+//   border-left: 3px solid #4a7ab5;
+// }
+
+// /* Date column */
+// .news table td:first-child,
+// .news td.date {
+//   white-space: nowrap;
+//   color: #888888;
+//   font-size: 0.82rem;
+//   min-width: 90px;
+//   padding: 0.7rem 1rem 0.7rem 0.5rem;
+//   vertical-align: top;
+// }
+
+// /* Dark mode date */
+// html[data-theme='dark'] .news table td:first-child {
+//   color: #aaaaaa;
+// }
+
+// /* News text column */
+// .news table td:last-child,
+// .news td.news-text {
+//   padding: 0.7rem 0.5rem;
+//   color: #333333;
+//   line-height: 1.6;
+//   vertical-align: top;
+// }
+
+// /* Dark mode text */
+// html[data-theme='dark'] .news table td:last-child {
+//   color: #cccccc;
+// }
+
+// /* Links inside news */
+// .news table td a {
+//   color: #4a7ab5;
+//   text-decoration: none;
+// }
+
+// .news table td a:hover {
+//   text-decoration: underline;
+// }
+
+// /* Dark mode links */
+// html[data-theme='dark'] .news table td a {
+//   color: #6d9fd4;
+// }
+
+// /* Row separator */
+// html[data-theme='dark'] .news table tr {
+//   border-bottom: 1px solid #333333;
+// }
+
+// /* ============================================
+//    News Section Fixes
+//    ============================================ */
+
+// /* Align heading with table */
+// .news-table {
+//   width: 100% !important;
+//   margin-left: 0 !important;
+//   margin-top: 0.8rem !important;
+//   margin-bottom: 2.5rem !important;  /* gap before selected publications */
+// }
+
+// /* Fix heading alignment */
+// h2 + .news-table,
+// .news-table {
+//   padding-left: 0 !important;
+// }
+
+// /* Add space after entire news section */
+// .news-table + * {
+//   margin-top: 2.5rem !important;
+// }
+
+// /* Fix the left border alignment on first row */
+// .news-table tr:first-child {
+//   border-left: 3px solid #4a7ab5 !important;
+// }
+
+// /* Ensure all rows align properly */
+// .news-table tr {
+//   border-bottom: 1px solid #333 !important;
+//   border-left: 3px solid transparent !important;
+// }
+
+// .news-table tr:hover {
+//   border-left: 3px solid #4a7ab5 !important;
+// }
+
+/* News heading */
+h2.news-heading {
   font-size: 1.4rem !important;
   font-weight: 400 !important;
-  letter-spacing: -0.01em;
-  margin-bottom: 0.3rem !important;
   border: none !important;
   padding-bottom: 0 !important;
+  margin-bottom: 0.3rem !important;
+  margin-top: 2rem !important;
 }
 
-/* Blue underline below heading */
-.news h2::after,
-#news h2::after {
+h2.news-heading::after {
   content: "";
   display: block;
   width: 2rem;
   height: 2px;
   background-color: #4a7ab5;
   margin-top: 0.4rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-/* News table */
-.news table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-  font-size: 0.88rem;
-}
-
-/* Each row */
-.news table tr {
-  border-bottom: 1px solid #e8e8e8;
-  border-left: 3px solid transparent;
-  transition: border-left-color 0.15s ease;
-}
-
-/* Highlight latest news row */
-.news table tr:first-child {
-  border-left: 3px solid #4a7ab5;
-}
-
-.news table tr:hover {
-  border-left: 3px solid #4a7ab5;
-}
-
-/* Date column */
-.news table td:first-child,
-.news td.date {
-  white-space: nowrap;
-  color: #888888;
-  font-size: 0.82rem;
-  min-width: 90px;
-  padding: 0.7rem 1rem 0.7rem 0.5rem;
-  vertical-align: top;
-}
-
-/* Dark mode date */
-html[data-theme='dark'] .news table td:first-child {
-  color: #aaaaaa;
-}
-
-/* News text column */
-.news table td:last-child,
-.news td.news-text {
-  padding: 0.7rem 0.5rem;
-  color: #333333;
-  line-height: 1.6;
-  vertical-align: top;
-}
-
-/* Dark mode text */
-html[data-theme='dark'] .news table td:last-child {
-  color: #cccccc;
-}
-
-/* Links inside news */
-.news table td a {
-  color: #4a7ab5;
-  text-decoration: none;
-}
-
-.news table td a:hover {
-  text-decoration: underline;
-}
-
-/* Dark mode links */
-html[data-theme='dark'] .news table td a {
-  color: #6d9fd4;
-}
-
-/* Row separator */
-html[data-theme='dark'] .news table tr {
-  border-bottom: 1px solid #333333;
-}
-
-/* ============================================
-   News Section Fixes
-   ============================================ */
-
-/* Align heading with table */
+/* News table aligned with heading */
 .news-table {
   width: 100% !important;
+  border-collapse: collapse !important;
+  font-size: 0.88rem !important;
   margin-left: 0 !important;
-  margin-top: 0.8rem !important;
-  margin-bottom: 2.5rem !important;  /* gap before selected publications */
+  margin-bottom: 3rem !important;
 }
 
-/* Fix heading alignment */
-h2 + .news-table,
-.news-table {
-  padding-left: 0 !important;
+.news-table tr {
+  border-bottom: 1px solid #444 !important;
+  border-left: 3px solid transparent !important;
 }
 
-/* Add space after entire news section */
-.news-table + * {
-  margin-top: 2.5rem !important;
-}
-
-/* Fix the left border alignment on first row */
 .news-table tr:first-child {
   border-left: 3px solid #4a7ab5 !important;
 }
 
-/* Ensure all rows align properly */
-.news-table tr {
-  border-bottom: 1px solid #333 !important;
-  border-left: 3px solid transparent !important;
-}
-
 .news-table tr:hover {
   border-left: 3px solid #4a7ab5 !important;
+}
+
+.news-table .news-date {
+  white-space: nowrap !important;
+  color: #888 !important;
+  font-size: 0.82rem !important;
+  min-width: 100px !important;
+  padding: 0.7rem 1rem 0.7rem 0 !important;
+  vertical-align: top !important;
+}
+
+.news-table .news-text {
+  padding: 0.7rem 0.5rem !important;
+  line-height: 1.6 !important;
+  vertical-align: top !important;
+}
+
+.news-table .news-text a {
+  color: #4a7ab5 !important;
+  text-decoration: none !important;
+}
+
+.news-table .news-text a:hover {
+  text-decoration: underline !important;
+}
+
+/* Dark mode */
+html[data-theme='dark'] .news-table tr {
+  border-bottom: 1px solid #333 !important;
+}
+
+html[data-theme='dark'] .news-table .news-date {
+  color: #aaa !important;
+}
+
+html[data-theme='dark'] .news-table .news-text a {
+  color: #6d9fd4 !important;
 }

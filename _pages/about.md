@@ -80,7 +80,21 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 </style>
 
 ---
-<div class="news-section" style="margin-bottom: 3rem;">
+<h2 class="news-heading">What's new</h2>
+
+<table class="news-table">
+{% assign news_items = site.data.news.news | limit: 6 %}
+{% for item in news_items %}
+<tr>
+  <td class="news-date">{{ item.date }}</td>
+  <td class="news-text">{{ item.text }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<div style="margin-bottom: 3rem;"></div>
+
+<!-- <div class="news-section" style="margin-bottom: 3rem;">
 
 ## What's new
 
@@ -93,7 +107,7 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 </tr>
 {% endfor %}
 </table>
-</div>
+</div> -->
 <!-- 
 <style>
 .news-table {
