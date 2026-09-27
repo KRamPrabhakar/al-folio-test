@@ -1,11 +1,5 @@
-# =============================================================================
-# kramprabhakar.github.io
-# Personal Academic Website — Ram Prabhakar
-# Based on Al-Folio theme
-# =============================================================================
-
 # -----------------------------------------------------------------------------
-# Site Settings
+# Site settings
 # -----------------------------------------------------------------------------
 
 title: Ram Prabhakar
@@ -190,7 +184,10 @@ plugins:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories]
+  enabled:
+    - year
+    - tags
+    - categories
   layouts:
     year: archive-year
     tag: archive-tag
