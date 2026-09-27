@@ -39,7 +39,7 @@ at [IIT Madras](https://www.iitm.ac.in),
 where I lead the
 [APX Lab](https://apx-lab.github.io).
 
-Previously, I was a Assitant Research Scientist at
+Previously, I was a Assistant Research Scientist at
 [Johns Hopkins University](https://www.jhu.edu).
 I received my PhD from Indian Institute of Science (IISc),
 advised by [Dr. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/).
