@@ -20,10 +20,11 @@ social: true
 ---
 
 **Assistant Professor,**
-[IIT Madras](https://wsai.iitm.ac.in/)
+[Department of Data Science and AI](https://wsai.iitm.ac.in)
+at [IIT Madras](https://www.iitm.ac.in),
 
 <span style="color: #666; font-size: 0.9rem;">
-Department of Data Science and AI
+IIT Madras
 </span>
 
 Leading the
@@ -33,20 +34,9 @@ working on **computer vision**, **deep learning**,
 
 ---
 
-I am an Assistant Professor in the
-[Department of Data Science and AI](https://wsai.iitm.ac.in)
-at [IIT Madras](https://www.iitm.ac.in),
-where I lead the
-[APX Lab](https://apx-lab.github.io).
+Previously, I was as Assistant Research Scientist nder the guidance of [Prof. Rama Chellappa](https://engineering.jhu.edu/ece/faculty/rama-chellappa/) at [Johns Hopkins University](https://www.jhu.edu).
+I received my Ph.D. from Indian Institute of Science (IISc) Bangalore, advised by [Dr. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/).
 
-Previously, I was a Assistant Research Scientist at
-[Johns Hopkins University](https://www.jhu.edu).
-I received my PhD from Indian Institute of Science (IISc),
-advised by [Dr. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/).
-
-My research focuses on building machines that can
-**perceive, understand, and reason** about the visual world —
-developing methods that are robust, efficient,
-and generalizable across diverse real-world conditions.
+My research focuses on building machines that can **perceive, understand, and reason** about the visual world - developing methods that are robust, efficient, and generalizable across diverse real-world conditions.
 
 [Full bio →](/bio){: .bio-link}
