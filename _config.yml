@@ -24,8 +24,8 @@ footer_text: >
      target="_blank">al-folio</a> theme
 
 icon: "⚡️"
-url: https://kramprabhakar.github.io/al-folio-test
-baseurl: ""
+url: https://kramprabhakar.github.io
+baseurl: /al-folio-test
 last_updated: true
 
 # -----------------------------------------------------------------------------
