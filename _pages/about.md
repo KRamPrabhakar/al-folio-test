@@ -17,9 +17,6 @@ news: true
 news_limit: 8
 selected_papers: true
 social: false
-
-nav: true
-nav_order: 1
 ---
 
 <!-- **Assistant Professor,**
