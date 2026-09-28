@@ -8,126 +8,145 @@ nav_order: 6
 calendar: true
 ---
 
-At [APX Lab](https://apx-lab.github.io), we welcome motivated students and researchers at all levels who are excited about computer vision, deep learning, and visual perception.
-
-**Please read this page before reaching out.**
+I am actively building the
+[APX Lab](https://apx-lab.github.io)
+and welcome motivated students and researchers
+at all levels.
+**Please read the relevant section
+before reaching out.**
 
 ---
 
 ## Open Positions
 
-<div class="positions-table">
+{% tabs positions %}
 
-| Position | Who | Admission | Status |
-|----------|-----|-----------|--------|
-| [PhD / MS by Research](#phd) | External applicants | Jan & Jul cycles | **Open** |
-| [BTP / Final Year Project](#btp) | IITM UG students | Rolling | **Open** |
-| [Post-Bacc Fellowship](#postbacc) | Fresh graduates | Rolling | **Open** |
-| [Research Internship](#intern) | UG / PG students | Rolling (3–6 months) | **Open** |
-| [Project Associate](#pa) | Fresh graduates | Rolling | **Open** |
-| [Postdoctoral Fellowship](#postdoc) | PhD holders | Rolling | **Open** |
+{% tab positions Overview %}
 
-</div>
+| Position | Who | Duration | Status |
+|----------|-----|----------|--------|
+| PhD / MS by Research | External applicants | Long-term | **Open** |
+| BTP / Final Year Project | IITM UG students | 1 year | **Open** |
+| Post-Bacc Fellowship | Fresh graduates | 1–2 years | **Open** |
+| Research Internship | UG / PG students | 3–6 months | **Open** |
+| Project Associate | Fresh graduates | 1+ year | **Open** |
+| Postdoctoral Fellowship | PhD holders | 1–2 years | **Open** |
 
----
+**Prerequisites for all positions:**
+- Strong Python programming
+- PyTorch or TensorFlow
+- Core computer vision concepts
+- Linear algebra, probability,
+  signal processing fundamentals
 
-## Prerequisites
+{% endtab %}
 
-Before applying for any position, make sure you have a strong foundation in:
-- **Programming:** Strong coding skills in Python and PyTorch or TensorFlow
-- **Computer Vision:** image processing and CV fundamentals, deep learning for vision
-- **ML & Mathematics:** linear algebra, probability and statistics, machine learning, and signal processing fundamentals
+{% tab positions PhD & MS %}
 
----
+### PhD and MS by Research
 
-## Position Details
+I am looking for **2 strong, self-motivated,
+fully-funded** PhD/MS students to join APX Lab.
 
-### PhD and MS by Research {#phd}
+**How to apply:**
+Admission is through the official
+[IITM Research Admissions portal](https://research.iitm.ac.in).
 
-I am looking for **2 strong, self-motivated, fully-funded** PhD/MS students to join APX Lab.
-
-Admission is through the official [IITM Research Admissions portal](https://research.iitm.ac.in).
-
-A few things worth knowing about eligibility:
-- Students with **GPA > 8** from centrally funded institutes (IITs, NITs) are **exempt from GATE**
-- Candidates holding an **MS / MTech / ME degree** (from India or abroad) are also exempt from GATE
-- See the [official admissions handbook](https://research.iitm.ac.in) for full details
+**Eligibility shortcuts:**
+- GPA > 8 from IITs/NITs →
+  **GATE not required**
+- MS/MTech/ME degree holders →
+  **GATE not required**
+- See
+  [official handbook](https://research.iitm.ac.in)
+  for full details
 
 **Deadlines:**
-- July (fall) start → apply by **March**
-- January (spring) start → apply by **October**
+- July start → apply by **March**
+- January start → apply by **October**
 
-Once you have applied, email me with
-your application ID, CV, and a brief note
-on your research interests and experience.
+After applying, email me with your
+application ID, CV, and a brief note
+on your research interests.
 
----
+{% endtab %}
 
-### IITM BTP / Final Year Project {#btp}
+{% tab positions BTP %}
+
+### IITM BTP / Final Year Project
 
 I welcome IITM undergraduate students
-for their BTP or final year project.
+for BTP or final year projects.
 
-I prefer students who have completed
+**Preference:** Students who have completed
 courses in computer vision, deep learning,
-or related areas.
+or related areas from any IITM department.
 
-To discuss a project,
-**schedule a meeting with me directly:**
+**To get started:**
+Book a meeting directly using the link below.
+Slots are available exclusively for
+IITM students
+(**@iitm.ac.in email required**).
 
 <div class="calendar-note">
-  <p>
-    📅 Meeting slots are available exclusively
-    for IITM students
-    (<strong>@iitm.ac.in email required</strong>
-    to book a slot).
-  </p>
-  <a href="YOUR_GOOGLE_CALENDAR_BOOKING_LINK"
+  <p>📅 Book a 30-minute meeting:</p>
+  <a href="YOUR_CALENDAR_LINK"
      class="btn-apply"
      target="_blank">
-    Book a Meeting →
+    Schedule Meeting →
   </a>
 </div>
 
-Students who are close to graduation may also
-consider the
-[WSAI Post-Bacc Fellowship](#postbacc)
-as a next step.
+**Also consider:**
+Students close to graduation may explore the
+[WSAI Post-Bacc Fellowship](#)
+as a natural next step.
 
----
+{% endtab %}
 
-### WSAI Post-Bacc Fellowship {#postbacc}
+{% tab positions Post-Bacc %}
+
+### WSAI Post-Bacc Fellowship
 
 The
-[WSAI Post-Baccalaureate Fellowship](https://wsai.iitm.ac.in/postbacc)
+[WSAI Post-Baccalaureate Fellowship](https://wsai.iitm.ac.in)
 is a prestigious full-time research fellowship
 for recent graduates who want to pursue
-serious research before joining a PhD program.
+serious research before a PhD program.
 
-This is an excellent opportunity if you want
-to build a strong research foundation and
-publish at top venues before committing
-to a doctoral degree.
+I typically take **1–2 Post-Bacc fellows**
+per year.
 
-I typically take **1–2 Post-Bacc fellows** per year.
+**Ideal for:**
+- Recent graduates with strong CV/ML background
+- Those who want to publish before PhD
+- IITM students who just completed BTP with me
 
-Apply through the official WSAI portal
-and reach out via email with your CV
+**Apply:**
+Through the official WSAI portal and
+reach out via email with your CV
 and research interests.
 
----
+<a href="https://wsai.iitm.ac.in"
+   class="btn-apply"
+   target="_blank">
+  Apply at WSAI →
+</a>
 
-### Research Internship {#intern}
+{% endtab %}
 
-We offer **3–6 month in-person research internships**
-for students currently enrolled in a
-UG or PG program.
+{% tab positions Internship %}
 
-Internships are strictly **in-person** at
-IIT Madras, Chennai.
-We do not offer remote internships.
+### Research Internship
 
-Fill out the form below to apply.
+**Duration:** 3–6 months
+**Mode:** In-person only (IIT Madras, Chennai)
+**Who:** Students currently enrolled in
+UG or PG programs
+
+We do **not** offer remote internships.
+
+Fill out the interest form to apply:
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
    class="btn-apply"
@@ -135,19 +154,28 @@ Fill out the form below to apply.
   Fill Interest Form →
 </a>
 
----
+{% endtab %}
 
-### Project Associate {#pa}
+{% tab positions Project Associate %}
 
-Project Associates work full-time on
-active research projects in APX Lab.
-This is ideal for fresh graduates who want
-to gain hands-on research experience
-before applying to MS/PhD programs.
+### Project Associate
+
+Full-time research position for fresh graduates.
+Work on active APX Lab projects with
+close mentorship.
+
+**Ideal for:** Fresh graduates building
+research experience before MS/PhD.
 
 **Minimum commitment:** 1 year
 
-Fill out the form below to apply.
+Strong performers get:
+- Hands-on research experience
+- Publications at top venues
+- Strong recommendation letters
+- Clear pathway to MS/PhD admission
+
+Fill out the interest form to apply:
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
    class="btn-apply"
@@ -155,68 +183,73 @@ Fill out the form below to apply.
   Fill Interest Form →
 </a>
 
----
+{% endtab %}
 
-### Postdoctoral Fellowship {#postdoc}
+{% tab positions Postdoc %}
+
+### Postdoctoral Fellowship
 
 I welcome applications from candidates
-with a PhD and a strong publication record
-at top venues (CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR).
+with a PhD and strong publication record
+at top venues (CVPR, ICCV, ECCV,
+NeurIPS, ICML, ICLR).
 
-Postdocs work on self-directed research
-with mentorship and support toward
-building an independent research career.
+**What we offer:**
+- Self-directed research
+- Mentorship for faculty/industry applications
+- Travel support for conferences
+- Access to compute resources
+- Collaborative environment
 
-Reach out via email with your CV,
-research statement, and representative
-publications.
+Reach out via email with:
+- CV
+- Research statement
+- 2–3 representative publications
 
----
+{% endtab %}
 
-## Writing to Me
+{% tab positions Writing to Me %}
 
-I receive a large number of emails and
-may not be able to respond to every one -
-I apologize in advance.
+### Writing to Me
+
+I receive many emails and may not respond
+to all of them — I apologize in advance.
 
 To improve your chances of a response,
-please include the following in your email:
+please include:
 
-1. **Your interests and goals** -
-   what draws you to this work and
-   what you hope to achieve
+1. **Interests and goals** —
+   what draws you to this work
 2. **CV** (PDF)
-3. **Research statement** (1–2 paragraphs) -
-   describe prior research, projects,
-   or open-source contributions in ML/CV/AI.
-   *Write this in your own words.
-   Authenticity matters more than polish -
-   AI-generated text is easy to identify
+3. **Research statement** (1–2 paragraphs) —
+   prior projects in ML/CV/AI.
+   *Write in your own words.
+   AI-generated text is easy to spot
    and will work against you.*
 4. **Transcripts** (unofficial is fine)
-5. **Timeline** - when you can start
-   and how long you are available
-6. **Something specific from our work** -
-   share a genuine insight or question
-   from reading our papers.
-   *Superficial engagement is obvious
-   and will hurt your case.*
+5. **Timeline** — start date and duration
+6. **Something specific from our work** —
+   a genuine insight from reading our papers.
+   *Superficial engagement is obvious.*
 
 If you do not hear back,
 one follow-up after **1–2 weeks** is welcome.
 
 ---
 
-## Interest Form
+### Interest Form
 
-<div style="margin: 2rem 0;">
 <iframe
   src="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform?embedded=true"
   width="100%"
-  height="900"
+  height="850"
   frameborder="0"
   style="border:1px solid #e0e0e0;
-         border-radius:4px;">
+         border-radius:4px;
+         margin-top:1rem;">
   Loading form...
 </iframe>
-</div>
+
+{% endtab %}
+
+{% endtabs %}
