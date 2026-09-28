@@ -421,119 +421,119 @@ html[data-theme='dark'] .news-table .news-text a {
 //   }
 // }
 
-/* ============================================
-   Join Us Page
-   ============================================ */
+// /* ============================================
+//    Join Us Page
+//    ============================================ */
 
-/* Positions overview table */
-.positions-table table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.88rem;
-  margin: 1rem 0 2rem 0;
-}
+// /* Positions overview table */
+// .positions-table table {
+//   width: 100%;
+//   border-collapse: collapse;
+//   font-size: 0.88rem;
+//   margin: 1rem 0 2rem 0;
+// }
 
-.positions-table table th {
-  font-size: 0.78rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #888;
-  padding: 0.6rem 0.8rem;
-  border-bottom: 2px solid #e0e0e0;
-  text-align: left;
-}
+// .positions-table table th {
+//   font-size: 0.78rem;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   letter-spacing: 0.04em;
+//   color: #888;
+//   padding: 0.6rem 0.8rem;
+//   border-bottom: 2px solid #e0e0e0;
+//   text-align: left;
+// }
 
-.positions-table table td {
-  padding: 0.6rem 0.8rem;
-  border-bottom: 1px solid #e8e8e8;
-  vertical-align: middle;
-  font-size: 0.88rem;
-}
+// .positions-table table td {
+//   padding: 0.6rem 0.8rem;
+//   border-bottom: 1px solid #e8e8e8;
+//   vertical-align: middle;
+//   font-size: 0.88rem;
+// }
 
-.positions-table table tr:hover td {
-  background-color: #f8f9fa;
-}
+// .positions-table table tr:hover td {
+//   background-color: #f8f9fa;
+// }
 
-/* Open/Closed status */
-.positions-table td:last-child {
-  font-weight: 600;
-  color: #2e7d32;
-  white-space: nowrap;
-}
+// /* Open/Closed status */
+// .positions-table td:last-child {
+//   font-weight: 600;
+//   color: #2e7d32;
+//   white-space: nowrap;
+// }
 
-/* Dark mode table */
-html[data-theme='dark'] .positions-table table th {
-  border-bottom-color: #333;
-  color: #aaa;
-}
+// /* Dark mode table */
+// html[data-theme='dark'] .positions-table table th {
+//   border-bottom-color: #333;
+//   color: #aaa;
+// }
 
-html[data-theme='dark'] .positions-table table td {
-  border-bottom-color: #2a2a2a;
-}
+// html[data-theme='dark'] .positions-table table td {
+//   border-bottom-color: #2a2a2a;
+// }
 
-html[data-theme='dark'] .positions-table table tr:hover td {
-  background-color: #222;
-}
+// html[data-theme='dark'] .positions-table table tr:hover td {
+//   background-color: #222;
+// }
 
-/* Calendar booking note */
-.calendar-note {
-  background-color: #f8f9fa;
-  border: 1px solid #e0e0e0;
-  border-left: 3px solid #4a7ab5;
-  border-radius: 0 4px 4px 0;
-  padding: 1rem 1.2rem;
-  margin: 1rem 0;
-  font-size: 0.88rem;
-}
+// /* Calendar booking note */
+// .calendar-note {
+//   background-color: #f8f9fa;
+//   border: 1px solid #e0e0e0;
+//   border-left: 3px solid #4a7ab5;
+//   border-radius: 0 4px 4px 0;
+//   padding: 1rem 1.2rem;
+//   margin: 1rem 0;
+//   font-size: 0.88rem;
+// }
 
-.calendar-note p {
-  margin-bottom: 0.8rem;
-  color: #555;
-}
+// .calendar-note p {
+//   margin-bottom: 0.8rem;
+//   color: #555;
+// }
 
-html[data-theme='dark'] .calendar-note {
-  background-color: #222;
-  border-color: #333;
-  border-left-color: #4a7ab5;
-}
+// html[data-theme='dark'] .calendar-note {
+//   background-color: #222;
+//   border-color: #333;
+//   border-left-color: #4a7ab5;
+// }
 
-html[data-theme='dark'] .calendar-note p {
-  color: #aaa;
-}
+// html[data-theme='dark'] .calendar-note p {
+//   color: #aaa;
+// }
 
-/* Apply button */
-.btn-apply {
-  display: inline-block;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: #4a7ab5 !important;
-  border: 1px solid #4a7ab5;
-  padding: 0.3rem 0.9rem;
-  border-radius: 3px;
-  text-decoration: none !important;
-  transition: all 0.15s ease;
-  margin-top: 0.3rem;
-}
+// /* Apply button */
+// .btn-apply {
+//   display: inline-block;
+//   font-size: 0.82rem;
+//   font-weight: 500;
+//   color: #4a7ab5 !important;
+//   border: 1px solid #4a7ab5;
+//   padding: 0.3rem 0.9rem;
+//   border-radius: 3px;
+//   text-decoration: none !important;
+//   transition: all 0.15s ease;
+//   margin-top: 0.3rem;
+// }
 
-.btn-apply:hover {
-  background-color: #4a7ab5;
-  color: white !important;
-}
+// .btn-apply:hover {
+//   background-color: #4a7ab5;
+//   color: white !important;
+// }
 
-/* Section anchors — offset for fixed navbar */
-#phd, #btp, #postbacc,
-#intern, #pa, #postdoc {
-  scroll-margin-top: 80px;
-}
+// /* Section anchors — offset for fixed navbar */
+// #phd, #btp, #postbacc,
+// #intern, #pa, #postdoc {
+//   scroll-margin-top: 80px;
+// }
 
-/* Numbered email list */
-.page-content ol {
-  font-size: 0.9rem;
-  line-height: 1.8;
-  padding-left: 1.5rem;
-}
+// /* Numbered email list */
+// .page-content ol {
+//   font-size: 0.9rem;
+//   line-height: 1.8;
+//   padding-left: 1.5rem;
+// }
 
-.page-content ol li {
-  margin-bottom: 0.5rem;
-}
+// .page-content ol li {
+//   margin-bottom: 0.5rem;
+// }
