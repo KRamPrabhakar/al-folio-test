@@ -7,6 +7,57 @@ nav: true
 nav_order: 6
 calendar: true
 ---
+
+<style>
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border-bottom: none;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.tab-btn {
+  background: none !important;
+  border: none !important;
+  border-bottom: 2px solid #d0d0d0 !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  padding: 0.4rem 0.8rem !important;
+  margin-bottom: 0 !important;
+  font-family: inherit !important;
+  font-size: 0.88rem !important;
+  font-weight: 400 !important;
+  color: #999999 !important;
+  cursor: pointer;
+  transition: color 0.15s ease,
+              border-bottom-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.tab-btn:hover {
+  color: #A51C30 !important;
+  border-bottom-color: #A51C30 !important;
+  background: none !important;
+}
+
+.tab-btn.active {
+  color: #A51C30 !important;
+  border-bottom-color: #A51C30 !important;
+  font-weight: 600 !important;
+  background: none !important;
+}
+
+.tab-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+</style>
+
 At [APX Lab](https://apx-lab.github.io), we welcome motivated students and researchers at all levels.
 **Please read the relevant section before reaching out.**
 
