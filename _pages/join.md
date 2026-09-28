@@ -7,330 +7,210 @@ nav: true
 nav_order: 6
 calendar: true
 ---
-## We Are Recruiting!
 
-Looking for motivated PhD, MS by Research, interns
-and undergraduate students for 2025.
+At [APX Lab](https://apx-lab.github.io), we welcome motivated students and researchers at all levels who are excited about computer vision, deep learning, and visual perception.
 
-[See openings →](/al-folio-test/join)
-
-## Prospective Students & Researchers
-
-We are actively building the
-[APX Lab](https://apx-lab.github.io)
-at IIT Madras and am looking for
-passionate, driven individuals who want to
-work on challenging problems in
-**computer vision and deep learning**.
-
-If you are someone who enjoys thinking deeply,
-building things that work, and pushing the
-boundaries of what machines can see and
-understand - I would love to work with you.
-
-**Please read this page carefully
-before reaching out.**
+**Please read this page before reaching out.**
 
 ---
 
-## What We Work On
+## Open Positions
 
-At APX Lab, we build machines that can
-**see, understand, and reason** about the
-visual world.
-Our work spans both theory and practice —
-from developing novel algorithms grounded
-in mathematics to building systems that
-work robustly in the real world.
+<div class="positions-table">
 
-We tackle problems in:
-- **Computer Vision** — recognition,
-  detection, segmentation, scene understanding
-- **Deep Learning** — efficient architectures,
-  representation learning, generalization
-- **Image Processing** — restoration,
-  enhancement, computational imaging
-- **Machine Learning** — learning theory,
-  domain adaptation, robustness
-
-Browse our
-[publications](/al-folio-test/publications)
-to get a sense of what we do.
-
-If our work excites you and you are ready
-to commit fully — read on.
-
----
-
-## Who Thrives Here
-
-Students who do well in our group
-typically have:
-
-**Strong foundations in:**
-- Linear algebra, probability,
-  and multivariate calculus
-- Machine learning fundamentals
-- Optimization basics
-
-**Strong skills in:**
-- Python programming
-- Deep learning frameworks (PyTorch preferred)
-- Experimental rigor and clean code
-
-**The right mindset:**
-- Intellectual curiosity and
-  self-driven learning
-- Comfort with ambiguity and
-  open-ended problems
-- Ownership of your work
-- Willingness to read broadly
-  and think deeply
-
-Prior degrees in CS, EE/ECE, Data Science,
-Mathematics, or related fields
-work well.
-What matters most is **how you think**,
-not just what you already know.
-
-We are a **fully in-person lab** at
-IIT Madras, Chennai.
-We do not offer remote or part-time positions.
-We value **sustained engagement** —
-good research takes time,
-and there are no shortcuts.
-
----
-
-## Current Openings
-
-<div class="openings-grid">
-
-  <div class="opening-card">
-    <div class="opening-status open">Open</div>
-    <h3>Project Assistant</h3>
-    <p>Full-time research position for
-    fresh graduates. Work on active
-    lab projects and build a strong
-    research foundation.</p>
-    <ul>
-      <li>Duration: 1 year (renewable)</li>
-      <li>Admissions: Rolling</li>
-      <li>Location: IIT Madras, Chennai</li>
-    </ul>
-    <a href="#apply" class="btn-apply">
-      How to Apply ↓
-    </a>
-  </div>
-
-  <div class="opening-card">
-    <div class="opening-status open">Open</div>
-    <h3>Research Intern</h3>
-    <p>Focused short-term research project.
-    In-person only. For students currently
-    enrolled in a degree program at
-    another institution.</p>
-    <ul>
-      <li>Duration: 3–6 months</li>
-      <li>Admissions: Rolling</li>
-      <li>Apply at least 2 months early</li>
-    </ul>
-    <a href="#apply" class="btn-apply">
-      How to Apply ↓
-    </a>
-  </div>
-
-  <div class="opening-card">
-    <div class="opening-status open">Open</div>
-    <h3>IITM Students</h3>
-    <p>BTP, Dual Degree, MS by Research,
-    and PhD positions for IITM students
-    and applicants through formal
-    admission channels.</p>
-    <ul>
-      <li>BTP/Dual: Rolling</li>
-      <li>MS/PhD: Jan & Jul cycles</li>
-      <li>Fully funded PhD positions</li>
-    </ul>
-    <a href="#iitm" class="btn-apply">
-      Read More ↓
-    </a>
-  </div>
-
-  <div class="opening-card">
-    <div class="opening-status open">Open</div>
-    <h3>Postdoctoral Researcher</h3>
-    <p>For candidates with a PhD and
-    a strong publication record in
-    CV/ML/DL. Independent research
-    with mentorship support.</p>
-    <ul>
-      <li>Duration: 1–2 years</li>
-      <li>Admissions: Rolling</li>
-      <li>Competitive fellowship</li>
-    </ul>
-    <a href="#apply" class="btn-apply">
-      How to Apply ↓
-    </a>
-  </div>
+| Position | Who | Admission | Status |
+|----------|-----|-----------|--------|
+| [PhD / MS by Research](#phd) | External applicants | Jan & Jul cycles | **Open** |
+| [BTP / Final Year Project](#btp) | IITM UG students | Rolling | **Open** |
+| [Post-Bacc Fellowship](#postbacc) | Fresh graduates | Rolling | **Open** |
+| [Research Internship](#intern) | UG / PG students | Rolling (3–6 months) | **Open** |
+| [Project Associate](#pa) | Fresh graduates | Rolling | **Open** |
+| [Postdoctoral Fellowship](#postdoc) | PhD holders | Rolling | **Open** |
 
 </div>
 
 ---
 
-## Track Details
+## Prerequisites
 
-### Project Assistant
+Before applying for any position, make sure you have a strong foundation in:
+- **Programming:** Strong coding skills in Python and PyTorch or TensorFlow
+- **Computer Vision:** image processing and CV fundamentals, deep learning for vision
+- **ML & Mathematics:** linear algebra, probability and statistics, machine learning, and signal processing fundamentals
 
-This is a great opportunity for fresh graduates
-who want to experience research before
-committing to a long-term degree program.
-Project Assistants work full-time on
-active research projects in the lab,
-with close mentorship.
+---
 
-Strong performers have a clear pathway
-to MS/PhD admission and strong
-recommendation letters.
+## Position Details
+
+### PhD and MS by Research {#phd}
+
+I am looking for **2 strong, self-motivated, fully-funded** PhD/MS students to join APX Lab.
+
+Admission is through the official [IITM Research Admissions portal](https://research.iitm.ac.in).
+
+A few things worth knowing about eligibility:
+- Students with **GPA > 8** from centrally
+  funded institutes (IITs, NITs) are
+  **exempt from GATE**
+- Candidates holding an
+  **MS / MTech / ME degree**
+  (from India or abroad) are also
+  exempt from GATE
+- See the
+  [official admissions handbook](https://research.iitm.ac.in)
+  for full details
+
+**Deadlines:**
+- July (fall) start → apply by **March**
+- January (spring) start → apply by **October**
+
+Once you have applied, email me with
+your application ID, CV, and a brief note
+on your research interests and experience.
+
+---
+
+### IITM BTP / Final Year Project {#btp}
+
+I welcome IITM undergraduate students
+for their BTP or final year project.
+
+I prefer students who have completed
+courses in computer vision, deep learning,
+or related areas.
+
+To discuss a project,
+**schedule a meeting with me directly:**
+
+<div class="calendar-note">
+  <p>
+    📅 Meeting slots are available exclusively
+    for IITM students
+    (<strong>@iitm.ac.in email required</strong>
+    to book a slot).
+  </p>
+  <a href="YOUR_GOOGLE_CALENDAR_BOOKING_LINK"
+     class="btn-apply"
+     target="_blank">
+    Book a Meeting →
+  </a>
+</div>
+
+Students who are close to graduation may also
+consider the
+[WSAI Post-Bacc Fellowship](#postbacc)
+as a next step.
+
+---
+
+### WSAI Post-Bacc Fellowship {#postbacc}
+
+The
+[WSAI Post-Baccalaureate Fellowship](https://wsai.iitm.ac.in/postbacc)
+is a prestigious full-time research fellowship
+for recent graduates who want to pursue
+serious research before joining a PhD program.
+
+This is an excellent opportunity if you want
+to build a strong research foundation and
+publish at top venues before committing
+to a doctoral degree.
+
+I typically take **1–2 Post-Bacc fellows** per year.
+
+Apply through the official WSAI portal
+and reach out via email with your CV
+and research interests.
+
+---
+
+### Research Internship {#intern}
+
+We offer **3–6 month in-person research internships**
+for students currently enrolled in a
+UG or PG program.
+
+Internships are strictly **in-person** at
+IIT Madras, Chennai.
+We do not offer remote internships.
+
+Fill out the form below to apply.
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
+   class="btn-apply"
+   target="_blank">
+  Fill Interest Form →
+</a>
+
+---
+
+### Project Associate {#pa}
+
+Project Associates work full-time on
+active research projects in APX Lab.
+This is ideal for fresh graduates who want
+to gain hands-on research experience
+before applying to MS/PhD programs.
 
 **Minimum commitment:** 1 year
 
----
+Fill out the form below to apply.
 
-### Research Intern
-
-We occasionally take research interns
-for focused projects with a clear scope.
-Internships are strictly **in-person**
-at IIT Madras.
-
-Formal channels for IITM-affiliated internships:
-- [IITM SURGE Program](https://surge.iitm.ac.in)
-  — annual, apply by March
-- Direct application — rolling
-
-**Minimum commitment:** 3 months full-time
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
+   class="btn-apply"
+   target="_blank">
+  Fill Interest Form →
+</a>
 
 ---
 
-### IITM Students {#iitm}
-
-**BTP / Dual Degree:**
-If you are a current IITM student
-looking for a research project,
-the best way to work with me is to
-**take one of my courses and do well**.
-I expect a minimum commitment of **1 year**
-for meaningful research output.
-
-Email me with your CV and a brief note
-on your interests.
-
-**MS by Research / PhD:**
-I am looking for **1–2 self-motivated,
-fully-funded PhD students** to join the lab.
-
-You must first apply through the official
-[IITM Research Admissions portal](https://research.iitm.ac.in).
-
-> **Good to know:** Students with GPA > 8
-> from centrally funded institutes (IITs, NITs)
-> do **not** need GATE scores to apply.
-> Candidates with an MS/MTech/ME degree
-> are also exempt from GATE.
-
-**Application deadlines:**
-- July start → apply by **March**
-- January start → apply by **October**
-
-After submitting your application,
-feel free to email me with your
-application ID and CV.
-
----
-
-### Postdoctoral Researcher
+### Postdoctoral Fellowship {#postdoc}
 
 I welcome applications from candidates
-with a strong PhD and a publication record
-at top venues (CVPR, ICCV, ECCV,
-NeurIPS, ICML, ICLR).
+with a PhD and a strong publication record
+at top venues (CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR).
 
-Postdocs at APX Lab work on
-self-directed research problems,
-with support and mentorship toward
-building an independent research profile
-and preparing for faculty or
-industry research positions.
+Postdocs work on self-directed research
+with mentorship and support toward
+building an independent research career.
 
----
-
-## How to Apply {#apply}
-
-**Step 1:**
-For MS/PhD → Apply through
-[IITM Research Admissions](https://research.iitm.ac.in)
-
-**Step 2:**
-Fill the interest form at the bottom
-of this page
-
-**Step 3:**
-Send an email with subject:
-`[APX Lab — POSITION] Your Name`
-
-**Your email must include:**
-
-- **CV** (PDF)
-- **Research interests and goals**
-  (what draws you to this work,
-  what you hope to achieve)
-- **Research statement** (1–2 paragraphs)
-  on prior projects or research in ML/AI/CV.
-  *Write this yourself in your own words.
-  Authenticity matters —
-  AI-generated text is easy to spot
-  and works against you.*
-- **Transcripts** (unofficial is fine)
-- **Timeline** — when you can start
-  and for how long
-- **One thing you found interesting**
-  in our recent work and why
-  *(This must be genuine.
-  Superficial engagement is obvious.)*
-
-> I receive many emails and may not
-> be able to respond to all of them.
-> If you do not hear back within
-> **2 weeks**, one follow-up is welcome.
+Reach out via email with your CV,
+research statement, and representative
+publications.
 
 ---
 
-## Working Style
+## Writing to Me
 
-I got into academia because I genuinely
-enjoy mentoring and watching people grow.
+I receive a large number of emails and
+may not be able to respond to every one -
+I apologize in advance.
 
-I invest real time in my students —
-thinking through problems together,
-giving detailed feedback on writing,
-helping navigate research directions,
-and supporting career decisions.
+To improve your chances of a response,
+please include the following in your email:
 
-At the same time, I expect you to
-**take full ownership of your work**.
-I will be there at every step to guide,
-challenge, and support — but the drive
-must come from you.
+1. **Your interests and goals** -
+   what draws you to this work and
+   what you hope to achieve
+2. **CV** (PDF)
+3. **Research statement** (1–2 paragraphs) -
+   describe prior research, projects,
+   or open-source contributions in ML/CV/AI.
+   *Write this in your own words.
+   Authenticity matters more than polish -
+   AI-generated text is easy to identify
+   and will work against you.*
+4. **Transcripts** (unofficial is fine)
+5. **Timeline** - when you can start
+   and how long you are available
+6. **Something specific from our work** -
+   share a genuine insight or question
+   from reading our papers.
+   *Superficial engagement is obvious
+   and will hurt your case.*
 
-Expect to be stretched.
-Expect to sit with hard problems
-without immediate answers.
-Expect to grow faster than you thought possible.
-
-> Research is hard, often frustrating,
-> and deeply rewarding.
-> If you are up for that — let's talk.
+If you do not hear back,
+one follow-up after **1–2 weeks** is welcome.
 
 ---
 
