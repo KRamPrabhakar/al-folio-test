@@ -49,9 +49,7 @@ I am looking for **2 strong, self-motivated, fully-funded** PhD/MS students to j
 Admission is through the official [IITM Research Admissions portal](https://research.iitm.ac.in).
 
 A few things worth knowing about eligibility:
-- Students with **GPA > 8** from centrally
-  funded institutes (IITs, NITs) are
-  **exempt from GATE**
+- Students with **GPA > 8** from centrally funded institutes (IITs, NITs) are **exempt from GATE**
 - Candidates holding an
   **MS / MTech / ME degree**
   (from India or abroad) are also
