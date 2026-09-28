@@ -33,7 +33,7 @@ before reaching out.**
 
 <div class="join-tabs">
 
-<div class="tab-buttons">
+<!-- <div class="tab-buttons">
   <button class="tab-btn active"
     onclick="showTab('overview')">
     Overview
@@ -62,6 +62,16 @@ before reaching out.**
     onclick="showTab('postdoc')">
     Postdoc
   </button>
+</div> -->
+
+<div class="tab-buttons">
+  <button class="tab-btn" data-tab="overview">Overview</button>
+  <button class="tab-btn" data-tab="phd">PhD & MS</button>
+  <button class="tab-btn" data-tab="btp">BTP</button>
+  <button class="tab-btn" data-tab="postbacc">Post-Bacc</button>
+  <button class="tab-btn" data-tab="intern">Internship</button>
+  <button class="tab-btn" data-tab="pa">Project Associate</button>
+  <button class="tab-btn" data-tab="postdoc">Postdoc</button>
 </div>
 
 <!-- Overview Tab -->
@@ -317,25 +327,4 @@ one follow-up after **1–2 weeks** is welcome.
 </iframe>
 </div>
 
-<script>
-function showTab(tabName) {
-  // Hide all panels
-  var panels = document.querySelectorAll('.tab-panel');
-  panels.forEach(function(panel) {
-    panel.classList.remove('active');
-  });
-
-  // Remove active from all buttons
-  var buttons = document.querySelectorAll('.tab-btn');
-  buttons.forEach(function(btn) {
-    btn.classList.remove('active');
-  });
-
-  // Show selected panel
-  document.getElementById('tab-' + tabName)
-    .classList.add('active');
-
-  // Set active button
-  event.target.classList.add('active');
-}
-</script>
+<script src="/al-folio-test/assets/js/tabs.js"></script>

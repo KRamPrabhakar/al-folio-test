@@ -297,36 +297,48 @@ html[data-theme='dark'] .news-table .news-text a {
 .tab-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 0;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
   margin-bottom: 1.5rem;
   padding: 0;
+  gap: 0;
 }
 
 /* Individual tab button */
 .tab-btn {
-  background: none;
-  border: none;
-  border-bottom: 2px solid transparent;
+  background: none !important;
+  border: none !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
   margin-bottom: -2px;
   padding: 0.5rem 1rem;
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   font-weight: 500;
   color: #888;
   cursor: pointer;
   transition: all 0.15s ease;
   font-family: inherit;
   white-space: nowrap;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .tab-btn:hover {
-  color: #4a7ab5;
+  color: #4a7ab5 !important;
+  background: none !important;
 }
 
 .tab-btn.active {
-  color: #4a7ab5;
-  border-bottom: 2px solid #4a7ab5;
+  color: #4a7ab5 !important;
+  border-bottom: 2px solid #4a7ab5 !important;
   font-weight: 600;
+  background: none !important;
+}
+
+.tab-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Tab panels */
@@ -338,9 +350,9 @@ html[data-theme='dark'] .news-table .news-text a {
   animation: fadeIn 0.2s ease;
 }
 
-.tab-panel.active {
-  display: block;
-}
+// .tab-panel.active {
+//   display: block;
+// }
 
 .tab-panel h3 {
   font-size: 1.05rem !important;
@@ -367,9 +379,14 @@ html[data-theme='dark'] .news-table .news-text a {
 }
 
 /* Fade animation */
+// @keyframes fadeIn {
+//   from { opacity: 0; transform: translateY(4px); }
+//   to   { opacity: 1; transform: translateY(0); }
+// }
+
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(4px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* Dark mode */
@@ -378,16 +395,16 @@ html[data-theme='dark'] .tab-buttons {
 }
 
 html[data-theme='dark'] .tab-btn {
-  color: #888;
+  color: #777 !important;
 }
 
 html[data-theme='dark'] .tab-btn:hover,
 html[data-theme='dark'] .tab-btn.active {
-  color: #6d9fd4;
+  color: #6d9fd4 !important;
 }
 
 html[data-theme='dark'] .tab-btn.active {
-  border-bottom-color: #6d9fd4;
+  border-bottom-color: #6d9fd4 !important;
 }
 
 /* Calendar note */
