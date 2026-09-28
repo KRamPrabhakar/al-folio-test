@@ -50,13 +50,8 @@ Admission is through the official [IITM Research Admissions portal](https://rese
 
 A few things worth knowing about eligibility:
 - Students with **GPA > 8** from centrally funded institutes (IITs, NITs) are **exempt from GATE**
-- Candidates holding an
-  **MS / MTech / ME degree**
-  (from India or abroad) are also
-  exempt from GATE
-- See the
-  [official admissions handbook](https://research.iitm.ac.in)
-  for full details
+- Candidates holding an **MS / MTech / ME degree** (from India or abroad) are also exempt from GATE
+- See the [official admissions handbook](https://research.iitm.ac.in) for full details
 
 **Deadlines:**
 - July (fall) start → apply by **March**
