@@ -1,17 +1,12 @@
 ---
 layout: page
 permalink: /group/
-title: Group
-description: Research group details
+title: Artificial Perception X (APX) Lab
+nav_title: Group
 nav: true
 nav_order: 5
 calendar: true
 ---
-
-## APX Lab
-
-The **Artificial Perception X (APX) Lab**
-is based at IIT Madras.
 
 Visit the lab website:
 [apx-lab.github.io](https://apx-lab.github.io)

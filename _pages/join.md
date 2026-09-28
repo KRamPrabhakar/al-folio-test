@@ -2,6 +2,7 @@
 layout: page
 permalink: /join/
 title: " "
+nav_title: Join Us
 nav: true
 nav_order: 6
 calendar: true

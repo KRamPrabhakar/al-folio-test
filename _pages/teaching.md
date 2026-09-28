@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching & Service
-description: Course materials, schedules, and resources for classes taught.
+title: " "
+nav_title: Teaching
 nav: true
 nav_order: 4
 calendar: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+The list courses taught with detailed schedules, materials, and resources.
 
 {% include courses.liquid %}
