@@ -7,21 +7,16 @@ nav: true
 nav_order: 6
 calendar: true
 ---
-
 I am actively building the
 [APX Lab](https://apx-lab.github.io)
-and welcome motivated students and researchers
-at all levels.
+and welcome motivated students and
+researchers at all levels.
 **Please read the relevant section
 before reaching out.**
 
 ---
 
 ## Open Positions
-
-{% tabs positions %}
-
-{% tab positions Overview %}
 
 | Position | Who | Duration | Status |
 |----------|-----|----------|--------|
@@ -32,100 +27,165 @@ before reaching out.**
 | Project Associate | Fresh graduates | 1+ year | **Open** |
 | Postdoctoral Fellowship | PhD holders | 1–2 years | **Open** |
 
-**Prerequisites for all positions:**
-- Strong Python programming
-- PyTorch or TensorFlow
-- Core computer vision concepts
-- Linear algebra, probability,
-  signal processing fundamentals
+*Click a tab below for details on each position.*
 
-{% endtab %}
+---
 
-{% tab positions PhD & MS %}
+<div class="join-tabs">
 
-### PhD and MS by Research
+<div class="tab-buttons">
+  <button class="tab-btn active"
+    onclick="showTab('overview')">
+    Overview
+  </button>
+  <button class="tab-btn"
+    onclick="showTab('phd')">
+    PhD & MS
+  </button>
+  <button class="tab-btn"
+    onclick="showTab('btp')">
+    BTP
+  </button>
+  <button class="tab-btn"
+    onclick="showTab('postbacc')">
+    Post-Bacc
+  </button>
+  <button class="tab-btn"
+    onclick="showTab('intern')">
+    Internship
+  </button>
+  <button class="tab-btn"
+    onclick="showTab('pa')">
+    Project Associate
+  </button>
+  <button class="tab-btn"
+    onclick="showTab('postdoc')">
+    Postdoc
+  </button>
+</div>
 
-I am looking for **2 strong, self-motivated,
-fully-funded** PhD/MS students to join APX Lab.
+<!-- Overview Tab -->
+<div id="tab-overview" class="tab-panel active">
 
-**How to apply:**
-Admission is through the official
-[IITM Research Admissions portal](https://research.iitm.ac.in).
+<h3>All Positions at a Glance</h3>
 
-**Eligibility shortcuts:**
-- GPA > 8 from IITs/NITs →
-  **GATE not required**
-- MS/MTech/ME degree holders →
-  **GATE not required**
-- See
-  [official handbook](https://research.iitm.ac.in)
-  for full details
+<p>We are open to motivated individuals
+at all levels. All positions are
+<strong>in-person only</strong>
+at IIT Madras, Chennai.</p>
 
-**Deadlines:**
-- July start → apply by **March**
-- January start → apply by **October**
+<p><strong>Prerequisites for all positions:</strong></p>
+<ul>
+  <li>Strong Python programming</li>
+  <li>PyTorch or TensorFlow</li>
+  <li>Core computer vision concepts</li>
+  <li>Linear algebra, probability,
+  signal processing fundamentals</li>
+</ul>
 
-After applying, email me with your
-application ID, CV, and a brief note
-on your research interests.
+</div>
 
-{% endtab %}
+<!-- PhD & MS Tab -->
+<div id="tab-phd" class="tab-panel">
 
-{% tab positions BTP %}
+<h3>PhD and MS by Research</h3>
 
-### IITM BTP / Final Year Project
+<p>I am looking for <strong>2 strong,
+self-motivated, fully-funded</strong>
+PhD/MS students to join APX Lab.</p>
 
-I welcome IITM undergraduate students
-for BTP or final year projects.
+<p>Admission is through the official
+<a href="https://research.iitm.ac.in"
+target="_blank">
+IITM Research Admissions portal</a>.</p>
 
-**Preference:** Students who have completed
+<p><strong>You may be exempt from GATE if:</strong></p>
+<ul>
+  <li>GPA > 8 from IITs or NITs</li>
+  <li>You hold an MS/MTech/ME degree
+  from India or abroad</li>
+</ul>
+<p>See the
+<a href="https://research.iitm.ac.in"
+target="_blank">official handbook</a>
+for full eligibility details.</p>
+
+<p><strong>Application deadlines:</strong></p>
+<ul>
+  <li>July (fall) start → apply by <strong>March</strong></li>
+  <li>January (spring) start → apply by <strong>October</strong></li>
+</ul>
+
+<p>Once you have applied, email me with
+your application ID, CV, and a brief note
+on your research background and interests.</p>
+
+</div>
+
+<!-- BTP Tab -->
+<div id="tab-btp" class="tab-panel">
+
+<h3>IITM BTP / Final Year Project</h3>
+
+<p>I welcome IITM undergraduate students
+for BTP or final year research projects.</p>
+
+<p>I prefer students who have completed
 courses in computer vision, deep learning,
-or related areas from any IITM department.
+or related areas from any IITM department.</p>
 
-**To get started:**
-Book a meeting directly using the link below.
+<p>To discuss a potential project,
+book a meeting directly.
 Slots are available exclusively for
 IITM students
-(**@iitm.ac.in email required**).
+(<strong>@iitm.ac.in email required</strong>
+to book).</p>
 
 <div class="calendar-note">
-  <p>📅 Book a 30-minute meeting:</p>
+  <p>📅 Schedule a 30-minute meeting:</p>
   <a href="YOUR_CALENDAR_LINK"
      class="btn-apply"
      target="_blank">
-    Schedule Meeting →
+    Book a Meeting →
   </a>
 </div>
 
-**Also consider:**
-Students close to graduation may explore the
-[WSAI Post-Bacc Fellowship](#)
-as a natural next step.
+<p>Students close to graduation may also
+consider the
+<strong>WSAI Post-Bacc Fellowship</strong>
+as a natural next step.</p>
 
-{% endtab %}
+</div>
 
-{% tab positions Post-Bacc %}
+<!-- Post-Bacc Tab -->
+<div id="tab-postbacc" class="tab-panel">
 
-### WSAI Post-Bacc Fellowship
+<h3>WSAI Post-Bacc Fellowship</h3>
 
-The
-[WSAI Post-Baccalaureate Fellowship](https://wsai.iitm.ac.in)
-is a prestigious full-time research fellowship
-for recent graduates who want to pursue
-serious research before a PhD program.
+<p>The
+<a href="https://wsai.iitm.ac.in"
+target="_blank">
+WSAI Post-Baccalaureate Fellowship</a>
+is a prestigious full-time research
+fellowship for recent graduates who want
+to pursue serious research before
+committing to a PhD program.</p>
 
-I typically take **1–2 Post-Bacc fellows**
-per year.
+<p>I typically take <strong>1–2 Post-Bacc
+fellows</strong> per year.</p>
 
-**Ideal for:**
-- Recent graduates with strong CV/ML background
-- Those who want to publish before PhD
-- IITM students who just completed BTP with me
+<p><strong>Ideal for:</strong></p>
+<ul>
+  <li>Recent graduates with strong
+  CV/ML background</li>
+  <li>Those who want to publish at
+  top venues before PhD</li>
+  <li>IITM students completing BTP</li>
+</ul>
 
-**Apply:**
-Through the official WSAI portal and
+<p>Apply through the WSAI portal and
 reach out via email with your CV
-and research interests.
+and research interests.</p>
 
 <a href="https://wsai.iitm.ac.in"
    class="btn-apply"
@@ -133,49 +193,25 @@ and research interests.
   Apply at WSAI →
 </a>
 
-{% endtab %}
+</div>
 
-{% tab positions Internship %}
+<!-- Internship Tab -->
+<div id="tab-intern" class="tab-panel">
 
-### Research Internship
+<h3>Research Internship</h3>
 
-**Duration:** 3–6 months
-**Mode:** In-person only (IIT Madras, Chennai)
-**Who:** Students currently enrolled in
-UG or PG programs
+<ul>
+  <li><strong>Duration:</strong> 3–6 months</li>
+  <li><strong>Mode:</strong> In-person only
+  (IIT Madras, Chennai)</li>
+  <li><strong>Who:</strong> Students currently
+  enrolled in UG or PG programs</li>
+</ul>
 
-We do **not** offer remote internships.
+<p>We do <strong>not</strong> offer
+remote internships.</p>
 
-Fill out the interest form to apply:
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
-   class="btn-apply"
-   target="_blank">
-  Fill Interest Form →
-</a>
-
-{% endtab %}
-
-{% tab positions Project Associate %}
-
-### Project Associate
-
-Full-time research position for fresh graduates.
-Work on active APX Lab projects with
-close mentorship.
-
-**Ideal for:** Fresh graduates building
-research experience before MS/PhD.
-
-**Minimum commitment:** 1 year
-
-Strong performers get:
-- Hands-on research experience
-- Publications at top venues
-- Strong recommendation letters
-- Clear pathway to MS/PhD admission
-
-Fill out the interest form to apply:
+<p>Fill out the interest form to apply:</p>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
    class="btn-apply"
@@ -183,34 +219,65 @@ Fill out the interest form to apply:
   Fill Interest Form →
 </a>
 
-{% endtab %}
+</div>
 
-{% tab positions Postdoc %}
+<!-- Project Associate Tab -->
+<div id="tab-pa" class="tab-panel">
 
-### Postdoctoral Fellowship
+<h3>Project Associate</h3>
 
-I welcome applications from candidates
+<p>Full-time research position for
+fresh graduates. Work on active APX Lab
+projects with close mentorship.</p>
+
+<p><strong>Minimum commitment:</strong>
+1 year</p>
+
+<p><strong>What you gain:</strong></p>
+<ul>
+  <li>Hands-on research experience</li>
+  <li>Opportunity to publish at top venues</li>
+  <li>Strong recommendation letters</li>
+  <li>Clear pathway to MS/PhD admission</li>
+</ul>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
+   class="btn-apply"
+   target="_blank">
+  Fill Interest Form →
+</a>
+
+</div>
+
+<!-- Postdoc Tab -->
+<div id="tab-postdoc" class="tab-panel">
+
+<h3>Postdoctoral Fellowship</h3>
+
+<p>I welcome applications from candidates
 with a PhD and strong publication record
 at top venues (CVPR, ICCV, ECCV,
-NeurIPS, ICML, ICLR).
+NeurIPS, ICML, ICLR).</p>
 
-**What we offer:**
-- Self-directed research
-- Mentorship for faculty/industry applications
-- Travel support for conferences
-- Access to compute resources
-- Collaborative environment
+<p><strong>What we offer:</strong></p>
+<ul>
+  <li>Self-directed research</li>
+  <li>Mentorship for faculty/industry careers</li>
+  <li>Conference travel support</li>
+  <li>Access to compute resources</li>
+</ul>
 
-Reach out via email with:
-- CV
-- Research statement
-- 2–3 representative publications
+<p>Reach out via email with your CV,
+research statement, and
+2–3 representative publications.</p>
 
-{% endtab %}
+</div>
 
-{% tab positions Writing to Me %}
+</div><!-- end join-tabs -->
 
-### Writing to Me
+---
+
+## Writing to Me
 
 I receive many emails and may not respond
 to all of them — I apologize in advance.
@@ -224,12 +291,11 @@ please include:
 3. **Research statement** (1–2 paragraphs) —
    prior projects in ML/CV/AI.
    *Write in your own words.
-   AI-generated text is easy to spot
-   and will work against you.*
+   AI-generated text is easy to spot.*
 4. **Transcripts** (unofficial is fine)
 5. **Timeline** — start date and duration
 6. **Something specific from our work** —
-   a genuine insight from reading our papers.
+   a genuine insight from our papers.
    *Superficial engagement is obvious.*
 
 If you do not hear back,
@@ -237,19 +303,39 @@ one follow-up after **1–2 weeks** is welcome.
 
 ---
 
-### Interest Form
+## Interest Form
 
+<div style="margin: 2rem 0;">
 <iframe
   src="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform?embedded=true"
   width="100%"
-  height="850"
+  height="900"
   frameborder="0"
   style="border:1px solid #e0e0e0;
-         border-radius:4px;
-         margin-top:1rem;">
+         border-radius:4px;">
   Loading form...
 </iframe>
+</div>
 
-{% endtab %}
+<script>
+function showTab(tabName) {
+  // Hide all panels
+  var panels = document.querySelectorAll('.tab-panel');
+  panels.forEach(function(panel) {
+    panel.classList.remove('active');
+  });
 
-{% endtabs %}
+  // Remove active from all buttons
+  var buttons = document.querySelectorAll('.tab-btn');
+  buttons.forEach(function(btn) {
+    btn.classList.remove('active');
+  });
+
+  // Show selected panel
+  document.getElementById('tab-' + tabName)
+    .classList.add('active');
+
+  // Set active button
+  event.target.classList.add('active');
+}
+</script>
