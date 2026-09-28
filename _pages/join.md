@@ -1,18 +1,13 @@
 ---
 layout: page
 permalink: /join/
-title: Join us
-description: Research group details
+title: " "
 nav: true
 nav_order: 6
 calendar: true
 ---
-I am actively building the
-[APX Lab](https://apx-lab.github.io)
-and welcome motivated students and
-researchers at all levels.
-**Please read the relevant section
-before reaching out.**
+At [APX Lab](https://apx-lab.github.io), we welcome motivated students and researchers at all levels.
+**Please read the relevant section before reaching out.**
 
 ---
 
@@ -24,7 +19,7 @@ before reaching out.**
 | BTP / Final Year Project | IITM UG students | 1 year | **Open** |
 | Post-Bacc Fellowship | Fresh graduates | 1–2 years | **Open** |
 | Research Internship | UG / PG students | 3–6 months | **Open** |
-| Project Associate | Fresh graduates | 1+ year | **Open** |
+| Project Associate / JRF | Fresh graduates | 1+ year | **Open** |
 | Postdoctoral Fellowship | PhD holders | 1–2 years | **Open** |
 
 *Click a tab below for details on each position.*
@@ -67,7 +62,7 @@ before reaching out.**
 <div class="tab-buttons">
   <button class="tab-btn" data-tab="overview">Overview</button>
   <button class="tab-btn" data-tab="phd">PhD & MS</button>
-  <button class="tab-btn" data-tab="btp">BTP</button>
+  <button class="tab-btn" data-tab="btp">IITM UG</button>
   <button class="tab-btn" data-tab="postbacc">Post-Bacc</button>
   <button class="tab-btn" data-tab="intern">Internship</button>
   <button class="tab-btn" data-tab="pa">Project Associate</button>
@@ -88,9 +83,8 @@ at IIT Madras, Chennai.</p>
 <ul>
   <li>Strong Python programming</li>
   <li>PyTorch or TensorFlow</li>
-  <li>Core computer vision concepts</li>
-  <li>Linear algebra, probability,
-  signal processing fundamentals</li>
+  <li>Computer vision and ML fundamentals</li>
+  <li>Linear algebra, probability, and signal processing fundamentals</li>
 </ul>
 
 </div>
@@ -249,6 +243,7 @@ projects with close mentorship.</p>
   <li>Opportunity to publish at top venues</li>
   <li>Strong recommendation letters</li>
   <li>Clear pathway to MS/PhD admission</li>
+  <li>Competitive salary</li>
 </ul>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
@@ -290,26 +285,21 @@ research statement, and
 ## Writing to Me
 
 I receive many emails and may not respond
-to all of them — I apologize in advance.
+to all of them - I apologize in advance.
 
 To improve your chances of a response,
 please include:
 
-1. **Interests and goals** —
+1. **Interests and goals** -
    what draws you to this work
 2. **CV** (PDF)
-3. **Research statement** (1–2 paragraphs) —
+3. With subject line: `[Prospective <PhD/MS/BTP/Intern/PA/Postdoc>] Your Name`
+4. **Research statement** (1–2 paragraphs) -
    prior projects in ML/CV/AI.
-   *Write in your own words.
-   AI-generated text is easy to spot.*
-4. **Transcripts** (unofficial is fine)
-5. **Timeline** — start date and duration
-6. **Something specific from our work** —
-   a genuine insight from our papers.
-   *Superficial engagement is obvious.*
+   *Write in your own words. AI-generated text is easy to spot.*
+5. **Timeline** - start date and duration
 
-If you do not hear back,
-one follow-up after **1–2 weeks** is welcome.
+If you do not hear back, one follow-up after **1–2 weeks** is welcome.
 
 ---
 

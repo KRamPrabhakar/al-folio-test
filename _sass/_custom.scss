@@ -291,57 +291,64 @@ html[data-theme='dark'] .news-table .news-text a {
 
 /* ============================================
    Join Us — Custom Tabs
+   Clean Underline Style
+   Harvard Crimson active state
    ============================================ */
 
-/* Tab button row */
+/* Tab button container */
 .tab-buttons {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 1px solid #e0e0e0;
+  gap: 0.5rem;
+  border-bottom: none;
   margin-bottom: 1.5rem;
   padding: 0;
-  gap: 0;
 }
 
 /* Individual tab button */
 .tab-btn {
   background: none !important;
   border: none !important;
-  border-bottom: 2px solid transparent !important;
+  border-bottom: 2px solid #d0d0d0 !important;
   border-radius: 0 !important;
   outline: none !important;
   box-shadow: none !important;
-  margin-bottom: -2px;
-  padding: 0.5rem 1rem;
-  font-size: 0.88rem;
-  font-weight: 500;
-  color: #888;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  padding: 0.4rem 0.8rem !important;
+  margin-bottom: 0 !important;
+  font-family: inherit !important;
+  font-size: 0.88rem !important;
+  font-weight: 400 !important;
+  color: #999999 !important;
   cursor: pointer;
-  transition: all 0.15s ease;
-  font-family: inherit;
+  transition: color 0.15s ease,
+              border-bottom-color 0.15s ease;
   white-space: nowrap;
-  -webkit-appearance: none;
-  appearance: none;
 }
 
+/* Hover */
 .tab-btn:hover {
-  color: #4a7ab5 !important;
+  color: #A51C30 !important;
+  border-bottom-color: #A51C30 !important;
   background: none !important;
 }
 
+/* Active/selected tab */
 .tab-btn.active {
-  color: #4a7ab5 !important;
-  border-bottom: 2px solid #4a7ab5 !important;
-  font-weight: 600;
+  color: #A51C30 !important;
+  border-bottom-color: #A51C30 !important;
+  font-weight: 600 !important;
   background: none !important;
 }
 
+/* Remove focus ring */
 .tab-btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 
-/* Tab panels */
+/* Tab panels — hidden by default */
 .tab-panel {
   display: none;
   padding: 0.5rem 0 1.5rem 0;
@@ -349,10 +356,6 @@ html[data-theme='dark'] .news-table .news-text a {
   line-height: 1.75;
   animation: fadeIn 0.2s ease;
 }
-
-// .tab-panel.active {
-//   display: block;
-// }
 
 .tab-panel h3 {
   font-size: 1.05rem !important;
@@ -379,32 +382,21 @@ html[data-theme='dark'] .news-table .news-text a {
 }
 
 /* Fade animation */
-// @keyframes fadeIn {
-//   from { opacity: 0; transform: translateY(4px); }
-//   to   { opacity: 1; transform: translateY(0); }
-// }
-
 @keyframes fadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
 
 /* Dark mode */
-html[data-theme='dark'] .tab-buttons {
-  border-bottom-color: #333;
-}
-
 html[data-theme='dark'] .tab-btn {
-  color: #777 !important;
+  color: #666666 !important;
+  border-bottom-color: #444444 !important;
 }
 
 html[data-theme='dark'] .tab-btn:hover,
 html[data-theme='dark'] .tab-btn.active {
-  color: #6d9fd4 !important;
-}
-
-html[data-theme='dark'] .tab-btn.active {
-  border-bottom-color: #6d9fd4 !important;
+  color: #d4526a !important;
+  border-bottom-color: #d4526a !important;
 }
 
 /* Calendar note */
@@ -455,5 +447,6 @@ html[data-theme='dark'] .calendar-note p {
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.2rem;
   }
 }
