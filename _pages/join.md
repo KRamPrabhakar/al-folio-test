@@ -1,12 +1,20 @@
 ---
 layout: page
 permalink: /join/
-title: " "
-nav_title: Join Us
+title: Join Us
 nav: true
 nav_order: 6
 calendar: true
 ---
+
+<style>
+h1.post-title,
+h1.page-title,
+.post-title,
+.page-title {
+  display: none !important;
+}
+</style>
 
 <style>
 .tab-buttons {
