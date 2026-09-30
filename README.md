@@ -1,4 +1,4 @@
-GitHub repo for Ram Prabhakar's webpage. 
+GitHub repo for Ram Prabhakar's webpage.
 
 ## License
 
