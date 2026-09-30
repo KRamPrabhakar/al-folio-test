@@ -197,7 +197,7 @@ on your research background and interests.
 <p>I welcome IITM undergraduate students for BTP or final year research projects. I prefer students who have completed
 courses in computer vision, deep learning, or related areas from any IITM department.</p>
 
-<p>Please email me to schedule a meeting, if you would like to meet me in my office and discuss.</p>
+<p>Please email me to schedule a meeting, if you would like to meet and discuss.</p>
 
 <!-- <p>To discuss a potential project,
 book a meeting directly.
@@ -354,14 +354,12 @@ please include:
 
 If you do not hear back, one follow-up after **1–2 weeks** is welcome.
 
----
-
-## Interest Form
+<!-- ## Interest Form
 <a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
    target="_blank">
   Fill Interest Form →
-</a>
+</a> -->
 
 <!-- <div style="margin: 2rem 0;">
 <iframe
