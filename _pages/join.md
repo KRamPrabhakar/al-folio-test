@@ -169,10 +169,7 @@ IITM Research Admissions portal</a>.</p>
   <li>You hold an MS/MTech/ME degree
   from India or abroad</li>
 </ul>
-<p>See the
-<a href="https://research.iitm.ac.in"
-target="_blank">official handbook</a>
-for full eligibility details.</p>
+<p>See the official handbook for full eligibility details.</p>
 
 <p><strong>Application deadlines:</strong></p>
 <ul>
@@ -182,9 +179,7 @@ for full eligibility details.</p>
 
 <p>Once you have applied, email me with
 your application ID, CV, and a brief note
-on your research background and interests.</p>
-
-<p>Fill out the interest form:
+on your research background and interests.
 <a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
    target="_blank">
@@ -266,22 +261,20 @@ and research interests.</p>
 
 <ul>
   <li><strong>Duration:</strong> 3–6 months, <a href="https://wsai.iitm.ac.in/internships/" 
-                                               target="_blank"> WSAI internship positions </a>. </li>
+                                               target="_blank"> WSAI internship positions</a>. </li>
   <li><strong>Mode:</strong> In-person only
   (IIT Madras, Chennai)</li>
   <li><strong>Who:</strong> Students currently
   enrolled in UG or PG programs</li>
 </ul>
 
-<p> We do <strong>not</strong> offer remote internships.</p>
-
-<p>Fill out the interest form:</p>
-
+<p> We do <strong>not</strong> offer remote internships.
 <a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
    target="_blank">
   Fill Interest Form →
 </a>
+</p>
 
 </div>
 
@@ -364,8 +357,6 @@ If you do not hear back, one follow-up after **1–2 weeks** is welcome.
 ---
 
 ## Interest Form
-<p>Fill out the interest form:</p>
-
 <a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
    target="_blank">
