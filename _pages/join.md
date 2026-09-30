@@ -184,13 +184,13 @@ for full eligibility details.</p>
 your application ID, CV, and a brief note
 on your research background and interests.</p>
 
-<p>Fill out the interest form:</p>
-
+<p>Fill out the interest form:
 <a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
    target="_blank">
   Fill Interest Form →
 </a>
+</p>
 
 </div>
 
@@ -199,14 +199,12 @@ on your research background and interests.</p>
 
 <h3>IITM BTP / Final Year Project</h3>
 
-<p>I welcome IITM undergraduate students
-for BTP or final year research projects.</p>
+<p>I welcome IITM undergraduate students for BTP or final year research projects. I prefer students who have completed
+courses in computer vision, deep learning, or related areas from any IITM department.</p>
 
-<p>I prefer students who have completed
-courses in computer vision, deep learning,
-or related areas from any IITM department.</p>
+<p>Please email me to schedule a meeting, if you would like to meet me in my office and discuss.</p>
 
-<p>To discuss a potential project,
+<!-- <p>To discuss a potential project,
 book a meeting directly.
 Slots are available exclusively for
 IITM students
@@ -220,7 +218,7 @@ to book).</p>
      target="_blank">
     Book a Meeting →
   </a>
-</div>
+</div> -->
 
 <p>Students close to graduation may also
 consider the
@@ -235,7 +233,7 @@ as a natural next step.</p>
 <h3>WSAI Post-Bacc Fellowship</h3>
 
 <p>The
-<a href="https://wsai.iitm.ac.in"
+<a href="https://wsai.iitm.ac.in/fellowships/"
 target="_blank">
 WSAI Post-Baccalaureate Fellowship</a>
 is a prestigious full-time research
@@ -259,12 +257,6 @@ fellows</strong> per year.</p>
 reach out via email with your CV
 and research interests.</p>
 
-<a href="https://wsai.iitm.ac.in"
-   class="btn-apply"
-   target="_blank">
-  Apply at WSAI →
-</a>
-
 </div>
 
 <!-- Internship Tab -->
@@ -273,17 +265,17 @@ and research interests.</p>
 <h3>Research Internship</h3>
 
 <ul>
-  <li><strong>Duration:</strong> 3–6 months</li>
+  <li><strong>Duration:</strong> 3–6 months, <a href="https://wsai.iitm.ac.in/internships/" 
+                                               target="_blank"> WSAI internship positions </a>. </li>
   <li><strong>Mode:</strong> In-person only
   (IIT Madras, Chennai)</li>
   <li><strong>Who:</strong> Students currently
   enrolled in UG or PG programs</li>
 </ul>
 
-<p>We do <strong>not</strong> offer
-remote internships.</p>
+<p> We do <strong>not</strong> offer remote internships.</p>
 
-<p>Fill out the interest form to apply:</p>
+<p>Fill out the interest form:</p>
 
 <a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
@@ -372,8 +364,15 @@ If you do not hear back, one follow-up after **1–2 weeks** is welcome.
 ---
 
 ## Interest Form
+<p>Fill out the interest form:</p>
 
-<div style="margin: 2rem 0;">
+<a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
+   class="btn-apply"
+   target="_blank">
+  Fill Interest Form →
+</a>
+
+<!-- <div style="margin: 2rem 0;">
 <iframe
   src="https://docs.google.com/forms/d/e/1FAIpQLSfmXD84RySpzErINodIgsV5hZca5UEFaud6Vqo9wJE_-vewGA/viewform?usp=header"
   width="100%"
@@ -383,6 +382,6 @@ If you do not hear back, one follow-up after **1–2 weeks** is welcome.
          border-radius:4px;">
   Loading form...
 </iframe>
-</div>
+</div> -->
 
 <script src="/al-folio-test/assets/js/tabs.js"></script>
