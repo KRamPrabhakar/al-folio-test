@@ -184,6 +184,14 @@ for full eligibility details.</p>
 your application ID, CV, and a brief note
 on your research background and interests.</p>
 
+<p>Fill out the interest form:</p>
+
+<a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
+   class="btn-apply"
+   target="_blank">
+  Fill Interest Form →
+</a>
+
 </div>
 
 <!-- BTP Tab -->
@@ -277,7 +285,7 @@ remote internships.</p>
 
 <p>Fill out the interest form to apply:</p>
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
+<a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
    target="_blank">
   Fill Interest Form →
@@ -306,7 +314,7 @@ projects with close mentorship.</p>
   <li>Competitive salary</li>
 </ul>
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform"
+<a href="https://forms.gle/Niz3D7wV1wSUaDWq9"
    class="btn-apply"
    target="_blank">
   Fill Interest Form →
@@ -367,7 +375,7 @@ If you do not hear back, one follow-up after **1–2 weeks** is welcome.
 
 <div style="margin: 2rem 0;">
 <iframe
-  src="https://docs.google.com/forms/d/e/1FAIpQLSextLm7z-pjvvOswk1Prq8JeJ8idwL0U4YNh5ldY2-RRCooFA/viewform?embedded=true"
+  src="https://forms.gle/Niz3D7wV1wSUaDWq9"
   width="100%"
   height="900"
   frameborder="0"
