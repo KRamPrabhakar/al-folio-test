@@ -3,7 +3,7 @@ layout: page
 permalink: /group/
 title: Group
 nav: true
-nav_order: 5
+nav_order: 4
 calendar: true
 ---
 
@@ -16,12 +16,13 @@ h1.page-title,
 }
 </style>
 
-Visit the lab website:
+<!-- Visit the lab website: 
 [apx-lab.github.io](https://apx-lab.github.io)
 
 ---
+-->
 
-## We Are Recruiting!
+## We are recruiting!
 
 Looking for motivated PhD, MS by Research,
 and undergraduate students for 2025.

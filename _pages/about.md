@@ -27,9 +27,11 @@ social: false
 [Department of Data Science and AI](https://wsai.iitm.ac.in)
 at [IIT Madras](https://www.iitm.ac.in) -->
 
-Leading the [Artificial Perception X (APX) Lab](https://apx-lab.github.io), working on **computer vision**, **deep learning**, **image processing**, and **machine learning**.
+My research group, the **Artificial Perception X (APX)** Lab, investigates core problems in **computer vision** and **deep learning**.
 
-My research focuses on building machines that can **perceive, understand, and reason** about the visual world - developing methods that are robust, efficient, and generalizable across diverse real-world conditions.
+<!-- My research group, the [Artificial Perception X (APX) Lab](https://apx-lab.github.io), investigates core problems in **computer vision** and **deep learning**. -->
+
+Our research focuses on building machines that can **perceive, understand, and reason** about the visual world - developing methods that are robust, efficient, and generalizable across diverse real-world conditions.
 
 [Full bio →](/al-folio-test/bio){: .bio-link}
 
