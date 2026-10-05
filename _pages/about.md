@@ -12,6 +12,8 @@ profile:
   align: left
   image: profile.png
   image_circular: false
+  more_info:
+  image_size: "180px"
 
 news: false
 announcements:
@@ -25,17 +27,11 @@ social: false
 [Department of Data Science and AI](https://wsai.iitm.ac.in)
 at [IIT Madras](https://www.iitm.ac.in) -->
 
-Leading the
-[Artificial Perception X (APX) Lab](https://apx-lab.github.io),
-working on **computer vision**, **deep learning**,
-**image processing**, and **machine learning**.
-
-Previously, I was an Assistant Research Scientist under the guidance of [Dr. Rama Chellappa](https://engineering.jhu.edu/ece/faculty/rama-chellappa/) at [Johns Hopkins University](https://www.jhu.edu).
-I received my Ph.D. from Indian Institute of Science (IISc) Bangalore, advised by [Dr. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/).
+Leading the [Artificial Perception X (APX) Lab](https://apx-lab.github.io), working on **computer vision**, **deep learning**, **image processing**, and **machine learning**.
 
 My research focuses on building machines that can **perceive, understand, and reason** about the visual world - developing methods that are robust, efficient, and generalizable across diverse real-world conditions.
 
-[Full bio →](/bio){: .bio-link}
+[Full bio →](/al-folio-test/bio){: .bio-link}
 
 ---
 
@@ -75,7 +71,72 @@ document.querySelectorAll('.email-obf').forEach(function(el) {
 .simple-social a { color: #4a7ab5; text-decoration: none; }
 .simple-social a:hover { text-decoration: underline; }
 .simple-social .sep { color: #999; margin: 0 0.3rem; }
+/* Openings strip */
+.openings-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  padding: 0.8rem 1rem;
+  background-color: #f8f9fa;
+  border-left: 3px solid #A51C30;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.85rem;
+}
+
+.openings-label {
+  font-weight: 600;
+  color: #A51C30;
+  margin-right: 0.3rem;
+}
+
+.opening-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid #A51C30;
+  border-radius: 20px;
+  color: #A51C30 !important;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+}
+
+.opening-tag:hover {
+  background-color: #A51C30;
+  color: white !important;
+}
+
+/* Dark mode */
+html[data-theme='dark'] .openings-strip {
+  background-color: #1e1515;
+  border-left-color: #d4526a;
+}
+
+html[data-theme='dark'] .openings-label {
+  color: #d4526a;
+}
+
+html[data-theme='dark'] .opening-tag {
+  border-color: #d4526a;
+  color: #d4526a !important;
+}
+
+html[data-theme='dark'] .opening-tag:hover {
+  background-color: #d4526a;
+  color: white !important;
+}
 </style>
+
+<div class="openings-strip">
+  <span class="openings-label">We are hiring →</span>
+  <a href="/al-folio-test/join/" class="opening-tag">PhD</a>
+  <a href="/al-folio-test/join/" class="opening-tag">MS</a>
+  <a href="/al-folio-test/join/" class="opening-tag">Intern</a>
+  <a href="/al-folio-test/join/" class="opening-tag">Project Associate</a>
+  <a href="/al-folio-test/join/" class="opening-tag">Postdoc</a>
+</div>
 
 <div style="clear:both; margin-top: 3rem;"></div>
 

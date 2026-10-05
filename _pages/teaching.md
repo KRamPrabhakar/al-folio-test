@@ -99,7 +99,7 @@ h2.teaching-heading {
   text-transform: uppercase !important;
   letter-spacing: 0.05em !important;
   color: #888 !important;
-  border-bottom: 1px solid #e0e0e0 !important;
+  border-bottom: none !important;
   padding-bottom: 0.4rem !important;
   margin-top: 2rem !important;
   margin-bottom: 0 !important;
@@ -135,8 +135,6 @@ html[data-theme='dark'] .teaching-table .course-id {
 }
 </style>
 
-## Teaching
-
 <h2 class="teaching-heading">IIT Madras</h2>
 
 <table class="teaching-table">
@@ -149,7 +147,7 @@ html[data-theme='dark'] .teaching-table .course-id {
   </thead>
   <tbody>
     <tr>
-      <td class="course-id">CS6XXX</td>
+      <td class="course-id">DA5XXX</td>
       <td class="course-name">
         <a href="/al-folio-test/teaching/iitm-cv">
           Advanced Visual Intelligence (AVI)
@@ -172,22 +170,22 @@ html[data-theme='dark'] .teaching-table .course-id {
   </thead>
   <tbody>
     <tr>
-      <td class="course-id">EN.XXX.XXX</td>
+      <td class="course-id">EN.520.665</td>
       <td class="course-name">
         <a href="/al-folio-test/teaching/jhu-course1">
           Machine Perception
         </a>
       </td>
-      <td class="course-years">2021 – 2024</td>
+      <td class="course-years">2023 – 2025</td>
     </tr>
     <tr>
-      <td class="course-id">EN.XXX.XXX</td>
+      <td class="course-id">EN.520.650</td>
       <td class="course-name">
         <a href="/al-folio-test/teaching/jhu-course2">
           Machine Intelligence
         </a>
       </td>
-      <td class="course-years">2022 – 2024</td>
+      <td class="course-years">2025</td>
     </tr>
   </tbody>
 </table>
@@ -197,16 +195,12 @@ html[data-theme='dark'] .teaching-table .course-id {
 ## Academic Service
 
 ### Reviewer
-- IEEE/CVF Conference on Computer Vision
-  and Pattern Recognition (CVPR)
-- International Conference on
-  Computer Vision (ICCV)
-- European Conference on
-  Computer Vision (ECCV)
-- Neural Information Processing
-  Systems (NeurIPS)
-- International Conference on
-  Machine Learning (ICML)
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+- International Conference on Computer Vision (ICCV)
+- European Conference on Computer Vision (ECCV)
+- WACV
+- AAAI
+- ICVGIP
 
 ### Program Committee
 *To be updated*
