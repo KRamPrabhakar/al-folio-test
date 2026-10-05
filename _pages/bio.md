@@ -27,7 +27,7 @@ For a complete overview of my ongoing projects and academic output, please explo
 
 ---
 
-### Selected Honors & Awards
+### Selected honors & awards
 
 * **IAPR Best Biometrics Student Paper Award**, *IJCB 2024*. [[Link]](https://iapr-tc4.org/blog/2024/09/21/2024-iapr-bbspa-winner-yuxiang-guo/)
 * **Best Student Paper Award (Runner-up)**, *BMVC 2021*. [[Link]](https://www.bmvc2021-virtualconference.com/programme/paper-awards/)

@@ -25,6 +25,6 @@ h1.page-title,
 ## We are recruiting!
 
 Looking for motivated PhD, MS by Research,
-and undergraduate students for 2025.
+and undergraduate students.
 
 [See openings →](/al-folio-test/join)

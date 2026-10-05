@@ -450,3 +450,29 @@ html[data-theme='dark'] .calendar-note p {
     padding-bottom: 0.2rem;
   }
 }
+
+/* Conferences → Blue */
+.badge-CVPR, .badge-ICCV, .badge-ECCV,
+.badge-WACV, .badge-AAAI, .badge-BMVC {
+  background-color: #1565C0 !important;
+  color: white !important;
+}
+
+/* ML Conferences → Green */
+.badge-NeurIPS, .badge-ICML, .badge-ICLR {
+  background-color: #2E7D32 !important;
+  color: white !important;
+}
+
+/* Journals → Purple */
+.badge-TPAMI, .badge-IJCV, .badge-TIP,
+.badge-TBIOM, .badge-TNNLS, .badge-TCI {
+  background-color: #6A1B9A !important;
+  color: white !important;
+}
+
+/* Preprint → Dark red */
+.badge-arXiv {
+  background-color: #B71C1C !important;
+  color: white !important;
+}

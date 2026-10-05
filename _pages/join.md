@@ -335,7 +335,7 @@ research statement, and
 
 ---
 
-## Writing to Me
+## Writing to me
 
 I receive many emails and may not respond
 to all of them - I apologize in advance.
