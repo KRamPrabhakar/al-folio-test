@@ -137,7 +137,7 @@ html[data-theme='dark'] .opening-tag:hover {
   <a href="/al-folio-test/join/" class="opening-tag">MS</a>
   <a href="/al-folio-test/join/" class="opening-tag">Intern</a>
   <a href="/al-folio-test/join/" class="opening-tag">Project Associate</a>
-  <a href="/al-folio-test/join/" class="opening-tag">Postdoc</a>
+  <!-- <a href="/al-folio-test/join/" class="opening-tag">Postdoc</a> -->
 </div>
 
 <div style="clear:both; margin-top: 3rem;"></div>
