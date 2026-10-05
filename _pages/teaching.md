@@ -135,7 +135,7 @@ html[data-theme='dark'] .teaching-table .course-id {
 }
 </style>
 
-<h2 class="teaching-heading">IIT Madras</h2>
+<!-- <h2 class="teaching-heading">IIT Madras</h2>
 
 <table class="teaching-table">
   <thead>
@@ -149,14 +149,14 @@ html[data-theme='dark'] .teaching-table .course-id {
     <tr>
       <td class="course-id">DA5XXX</td>
       <td class="course-name">
-        <a href="/al-folio-test/teaching/iitm-cv">
+        <a href="/al-folio-test/teachings/avi_v1">
           Advanced Visual Intelligence (AVI)
         </a>
       </td>
       <td class="course-years">2026 –</td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 <h2 class="teaching-heading">Johns Hopkins University</h2>
 
@@ -171,26 +171,22 @@ html[data-theme='dark'] .teaching-table .course-id {
   <tbody>
     <tr>
       <td class="course-id">EN.520.665</td>
-      <td class="course-name">
-        <a href="/al-folio-test/teaching/jhu-course1">
-          Machine Perception
-        </a>
+      <td class="course-name">        
+        Machine Perception        
       </td>
       <td class="course-years">2023 – 2025</td>
     </tr>
     <tr>
       <td class="course-id">EN.520.650</td>
-      <td class="course-name">
-        <a href="/al-folio-test/teaching/jhu-course2">
-          Machine Intelligence
-        </a>
+      <td class="course-name">        
+        Machine Intelligence        
       </td>
       <td class="course-years">2025</td>
     </tr>
   </tbody>
 </table>
 
----
+<!-- ---
 
 ## Academic Service
 
@@ -206,4 +202,4 @@ html[data-theme='dark'] .teaching-table .course-id {
 *To be updated*
 
 ### Organizing Committee
-*To be updated*
+*To be updated* -->

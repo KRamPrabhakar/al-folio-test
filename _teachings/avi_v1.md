@@ -452,11 +452,11 @@ html[data-theme='dark'] .policy-label {
 <div class="course-meta">
   <span>📍 IIT Madras</span>
   <span>🎓 Dept. of Data Science and AI</span>
-  <span>📅 Spring 2026</span>
+  <span>📅 Jan 2027</span>
   <span>👤
     <a href="https://kramprabhakar.github.io"
        target="_blank">
-      Dr. Ram Prabhakar
+      Ram Prabhakar
     </a>
   </span>
 </div>
@@ -467,11 +467,11 @@ html[data-theme='dark'] .policy-label {
 <div class="course-infobox">
   <div class="infobox-item">
     <div class="label">Course Code</div>
-    <div class="value">CS6XXX</div>
+    <div class="value">DA5XXX</div>
   </div>
   <div class="infobox-item">
     <div class="label">Credits</div>
-    <div class="value">3-0-0-3</div>
+    <div class="value">12 (4-0-0-0-8)</div>
   </div>
   <div class="infobox-item">
     <div class="label">Lecture</div>
@@ -488,7 +488,7 @@ html[data-theme='dark'] .policy-label {
   <div class="infobox-item">
     <div class="label">Prerequisites</div>
     <div class="value">
-      Linear Algebra,
+      Computer Vision, Image Processing, Linear Algebra,
       Probability, Python
     </div>
   </div>
@@ -506,7 +506,7 @@ both classical methods and modern deep learning
 approaches, with emphasis on mathematical
 foundations and practical implementation.
 <br><br>
-Topics include image formation, feature extraction,
+Topics include feature extraction with CNNs and transformers,
 object detection and segmentation, generative models,
 video understanding, and vision-language models.
 </div>
@@ -518,7 +518,7 @@ video understanding, and vision-language models.
 </span>
 
 <div class="announcement-item">
-  <span class="ann-date">Jan 2026</span>
+  <span class="ann-date">Jan 2027</span>
   <span class="ann-text">
     Course website is live.
     Welcome to AVI! First lecture on [date].
