@@ -1,11 +1,67 @@
 ---
 ---
+%inproceedings{prabhakar2024example,
+  title     = {Your Paper Title},
+  author    = {Prabhakar, Ram and Coauthor, Name},
+  booktitle = {CVPR},
+  year      = {2024},
+  abbr      = {CVPR},
+
+  % ---- Links ----
+
+  % Link to paper (IEEE, arXiv, ACM, etc.)
+  html      = {https://ieeexplore.ieee.org/...},
+
+  % arXiv link (shows separate arXiv button)
+  arxiv     = {2401.12345},
+
+  % PDF (direct PDF link or filename)
+  pdf       = {https://arxiv.org/pdf/2401.12345},
+
+  % Project webpage
+  website   = {https://apx-lab.github.io/project},
+
+  % Code repository
+  code      = {https://github.com/apx-lab/repo},
+
+  % Dataset
+  dataset   = {https://link-to-dataset.com},
+
+  % Poster (PDF)
+  poster    = {https://link-to-poster.pdf},
+
+  % Slides (PDF)
+  slides    = {https://link-to-slides.pdf},
+
+  % Video
+  video     = {https://youtube.com/watch?v=...},
+
+  % Abstract (expandable)
+  abstract  = {Your abstract text here.},
+
+  % Show BibTeX button
+  bibtex_show = {true},
+
+  % Show on homepage selected publications
+  selected  = {true},
+
+  % Preview thumbnail image
+  % Place image in assets/img/publication_preview/
+  preview   = {paper_thumbnail.png},
+
+  % Dimensions/Altmetric badge
+  dimensions = {true},
+
+  % Google Scholar ID for citation count
+  google_scholar_id = {xxxxxxxxxxxxxx},
+}
 
 @inproceedings{prabhakar2016ghosting,
   abbr    = {ICASSP},
   title={Ghosting-free multi-exposure image fusion in gradient domain},
   author={Prabhakar, Ram and Babu, R Venkatesh},
   booktitle={IEEE international conference on acoustics, speech and signal processing (ICASSP)},
+  code={https://github.com/KRamPrabhakar/GFMEF},
   pages={1766--1770},
   year={2016},
   organization={IEEE}
@@ -17,8 +73,8 @@
   title={Ghosting free HDR for dynamic scenes via shift-maps},
   author={Prabhakar, Ram and Babu, R Venkatesh},
   booktitle={Proceedings of the Tenth Indian Conference on Computer Vision, Graphics and Image Processing},
-  pages={1--8},  
-  pdf               = {example_pdf.pdf},
+  html={https://dl.acm.org/doi/10.1145/2342896.2342972},
+  pages={1--8},    
   year={2016}
 }
 
@@ -29,7 +85,8 @@
   author={Prabhakar, Ram and Sai Srikar, V and Venkatesh Babu, R},
   booktitle={Proceedings of the IEEE international conference on computer vision},
   pages={4714--4722},  
-  pdf               = {example_pdf.pdf},  
+  code={https://github.com/KRamPrabhakar/DeepFuse},
+  html               = {https://ieeexplore.ieee.org/document/8237767/},  
   year={2017}
 }
 
@@ -40,6 +97,7 @@
   author={Awasthi, Navchetan and Prabhakar, Ram and Kalva, Sandeep Kumar and Pramanik, Manojit and Babu, R Venkatesh and Yalavarthy, Phaneendra K},
   journal={Biomedical optics express},
   volume={10},
+  html={https://pmc.ncbi.nlm.nih.gov/articles/PMC6524595/},
   number={5},
   pages={2227--2243},
   year={2019},
@@ -52,14 +110,16 @@
   title={A Fast, Scalable, and Reliable Deghosting Method  for Extreme Exposure Fusion},
   author={Prabhakar, Ram and Arora, Rajat and Swaminathan, Adhitya and Singh, Kunal Pratap and Babu, R. Venkatesh},
   booktitle={ICCP},  
-  pdf               = {example_pdf.pdf},
+  code={https://github.com/rajat95/Deep-Deghosting-HDR},
+  html={https://val.cds.iisc.ac.in/HDR/ICCP19/},
+  annotation = {🎤 Oral Presentation},  
   year={2019}
 }
 
 @inproceedings{prabhakar2020cdnet++,
   bibtex_show = {true},
   abbr    = {IJCNN},
-  title={Cdnet++: Improved change detection with deep neural network feature correlation},
+  title={CDNet++: Improved change detection with deep neural network feature correlation},
   author={Prabhakar, Ram and Ramaswamy, Akshaya and Bhambri, Suvaansh and Gubbi, Jayavardhana and Babu, R Venkatesh and Purushothaman, Balamuralidhar},
   booktitle={International Joint Conference on Neural Networks (IJCNN)},
   pages={1--8},
@@ -73,7 +133,7 @@
   title={Towards Practical and Efficient High-Resolution HDR Deghosting with CNN},
   author={Prabhakar, Ram and Agrawal, Susmit and Singh, Durgesh Kumar and Ashwath, Balraj and Babu, R Venkatesh},
   booktitle={ECCV},
-  pdf               = {example_pdf.pdf},  
+  html               = {https://link.springer.com/chapter/10.1007/978-3-030-58589-1_30},  
   pages={497--513},
   year={2020}
 }
@@ -85,7 +145,9 @@
   author={Prabhakar, Ram and Senthil, Gowtham and Agrawal, Susmit and Babu, R Venkatesh and Gorthi, Rama Krishna Sai S},
   booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={4873--4883},  
-  pdf               = {example_pdf.pdf},
+  code={https://github.com/Susmit-A/FSHDR},
+  pdf               = {https://openaccess.thecvf.com/content/CVPR2021/html/Prabhakar_Labeled_From_Unlabeled_Exploiting_Unlabeled_Data_for_Few-Shot_Deep_HDR_CVPR_2021_paper.html},
+  video={https://www.youtube.com/watch?v=JEnGSIRRVk8},
   selected          = {true},
   year={2021},
   organization={IEEE}
@@ -108,8 +170,8 @@
   author={Prabhakar, Ram and Agrawal, Susmit and Babu, R Venkatesh},
   journal={IEEE Transactions on Computational Imaging},
   volume={7},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},  
+  url               = {https://ieeexplore.ieee.org/document/9540317?source=authoralert}, 
+  code={https://github.com/Susmit-A/HDRRNN}, 
   pages={1228--1239},
   year={2021},
   publisher={IEEE}
@@ -150,9 +212,10 @@
 
 @inproceedings{prabhakar2021few,
   bibtex_show = {true},
-  abbr    = {BMVC},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
+  abbr    = {BMVC},  
+  pdf={https://arxiv.org/pdf/2303.15528.pdf},
+  dataset={https://www.kaggle.com/datasets/razorblade/nikon-camera-dataset},
+  website={https://val.cds.iisc.ac.in/HDR/BMVC21/index.html},
   selected          = {true},
   title={Few-Shot Domain Adaptation for Low Light RAW Image Enhancement},
   author={Prabhakar, Ram and Vinod, Vishal and Sahoo, Nihar R and Babu, R Venkatesh},
@@ -242,13 +305,15 @@
   year={2023}
 }
 
-@article{huang2023whole,
+@article{huang2024whole,
   bibtex_show = {true},
-  abbr    = {arXiv},
+  abbr    = {TBIOM},
   title={Whole-body detection, recognition and identification at altitude and range},
-  author={Huang, Siyuan and Prabhakar, Ram and Lau, Chun Pong and Chellappa, Rama},
-  journal={arXiv preprint arXiv:2311.05725},
-  year={2023}
+  author={Huang, Siyuan and Prabhakar, Ram and Guo, Yuxiang and Lau, Chun Pong and Chellappa, Rama},
+  journal={IEEE Transactions on Biometrics, Behavior, and Identity Science},
+  url={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10737205},
+  website={https://cyanh1876.github.io/TBIOM2024/index.html},
+  year={2024}
 }
 
 @article{huang2023self,
@@ -264,11 +329,11 @@
 @inproceedings{xu2024leveraging,
   bibtex_show = {true},
   abbr    = {ECCV},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},  
+  arxiv               = {https://arxiv.org/abs/2403.14053},
   title={Leveraging thermal modality to enhance reconstruction in low-light conditions},
   author={Xu, Jiacong and Liao, Mingqian and Prabhakar, Ram and Patel, Vishal M},
   booktitle={European Conference on Computer Vision},
+  dataset={https://drive.google.com/file/d/1lVOaV5RCd6lnOMjaUM2Sdz2g0IpajZjT/view?usp=sharing}
   pages={321--339},
   year={2024},
   organization={Springer Nature Switzerland Cham}
@@ -277,12 +342,14 @@
 @inproceedings{pal2024gamma,
   bibtex_show = {true},
   abbr    = {ECCV},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
+  url               = {https://bas-2k.github.io/gamma-face/},
   selected          = {true},
   title={Gamma-face: Gaussian mixture models amend diffusion models for bias mitigation in face images},
   author={Pal, Basudha and Kannan, Arunkumar and Prabhakar, Ram and O’Toole, Alice J and Chellappa, Rama},
   booktitle={European Conference on Computer Vision},
+  poster={https://eccv.ecva.net/media/PosterPDFs/ECCV%202024/2152.png?t=1726960115.5809317},
+  pdf={https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08466.pdf},
+  code={https://bas-2k.github.io/gamma-face/},
   pages={471--488},
   year={2024},
   organization={Springer Nature Switzerland Cham}
@@ -311,13 +378,10 @@
 @inproceedings{guo2024distillation,
   bibtex_show = {true},
   abbr    = {IJCB},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},  
+  url               = {https://ieeexplore.ieee.org/document/11111687/},  
   title={Distillation-guided representation learning for unconstrained gait recognition},
   author={Guo, Yuxiang and Huang, Siyuan and Prabhakar, Ram and Lau, Chun Pong and Chellappa, Rama and Peng, Cheng},
   booktitle={IEEE International Joint Conference on Biometrics (IJCB)},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
   selected          = {true},
   award       = {IAPR Best Biometrics Student Paper Award 2024},
   award_name  = {Best Paper}, 
@@ -329,8 +393,7 @@
 @inproceedings{huang2025vills,
   bibtex_show = {true},
   abbr    = {WACV},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},  
+  arxiv               = {https://arxiv.org/abs/2311.17074},
   title={VILLS: Video-image learning to learn semantics for person re-identification},
   author={Huang, Siyuan and Prabhakar, Ram and Guo, Yuxiang and Chellappa, Rama and Peng, Cheng},
   booktitle={Proceedings of the Winter Conference on Applications of Computer Vision},
@@ -344,8 +407,7 @@
   title={Distillation-guided representation learning for unconstrained video human authentication},
   author={Guo, Yuxiang and Huang, Siyuan and Prabhakar, Ram and Lau, Chun Pong and Chellappa, Rama and Peng, Cheng},
   journal={IEEE Transactions on Biometrics, Behavior, and Identity Science},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
+  html               = {https://ieeexplore.ieee.org/document/11111687/},
   volume={7},
   number={4},
   pages={940--952},

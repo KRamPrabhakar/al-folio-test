@@ -23,11 +23,11 @@ My research focuses broadly on computer vision and visual intelligence, with spe
 * Few-shot learning
 * 3D Computer Vision & Computational Photography
 
-For a complete overview of my ongoing projects and academic output, please explore my [Research](/portfolio/) and [Publications](/publications/) pages.
+For a complete overview of my ongoing projects and academic output, please explore my [Publications](/al-folio-test/publications/) pages.
 
 ---
 
 ### Selected honors & awards
 
 * **IAPR Best Biometrics Student Paper Award**, *IJCB 2024*. [[Link]](https://iapr-tc4.org/blog/2024/09/21/2024-iapr-bbspa-winner-yuxiang-guo/)
-* **Best Student Paper Award (Runner-up)**, *BMVC 2021*. [[Link]](https://www.bmvc2021-virtualconference.com/programme/paper-awards/)
+* **Best Student Paper Award (Runner-up)**, *BMVC 2021*.

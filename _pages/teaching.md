@@ -181,7 +181,7 @@ html[data-theme='dark'] .teaching-table .course-id {
       <td class="course-name">        
         Machine Intelligence        
       </td>
-      <td class="course-years">2025</td>
+      <td class="course-years">2025 - 2026</td>
     </tr>
   </tbody>
 </table>
